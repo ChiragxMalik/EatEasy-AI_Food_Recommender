@@ -1,0 +1,76 @@
+{
+  "restaurants": [
+    {
+      "restaurant": "Italian Bistro",
+      "currency": "CAD",
+      "menu": [
+        {
+          "dish_name": "Margherita Pizza",
+          "description": "Classic pizza with tomato sauce, mozzarella, and basil",
+          "price": 12.99,
+          "category": "Pizzas"
+        },
+        {
+          "dish_name": "Tiramisu",
+          "description": "Coffee-flavored Italian dessert",
+          "price": 6.50,
+          "category": "Desserts"
+        },
+        {
+          "dish_name": "Bruschetta",
+          "description": "Grilled bread topped with tomatoes, garlic, and basil",
+          "price": 7.25,
+          "category": "Appetizers"
+        },
+        {
+          "dish_name": "Caesar Salad",
+          "description": "Crisp romaine lettuce with Caesar dressing and croutons",
+          "price": 8.99,
+          "category": "Salads"
+        },
+        {
+          "dish_name": "Spaghetti Carbonara",
+          "description": "Pasta with eggs, cheese, pancetta, and pepper",
+          "price": 14.50,
+          "category": "Pastas"
+        }
+      ]
+    },
+    {
+      "restaurant": "Tasty Foodz",
+      "currency": "USD",
+      "menu": [
+        {
+          "dish_name": "Cheeseburger",
+          "description": "Juicy beef patty with cheese, lettuce, and tomato",
+          "price": 10.99,
+          "category": "Burgers"
+        },
+        {
+          "dish_name": "French Fries",
+          "description": "Crispy golden fries served with ketchup",
+          "price": 3.50,
+          "category": "Sides"
+        },
+        {
+          "dish_name": "Caesar Salad",
+          "description": "Crisp romaine lettuce with Caesar dressing and croutons",
+          "price": 8.99,
+          "category": "Salads"
+        },
+        {
+          "dish_name": "Chicken Wings",
+          "description": "Spicy chicken wings served with blue cheese dressing",
+          "price": 12.00,
+          "category": "Appetizers"
+        },
+        {
+          "dish_name": "Chocolate Cake",
+          "description": "Rich chocolate cake with a creamy frosting",
+          "price": 5.75,
+          "category": "Desserts"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,579 @@
+{
+  "restaurants": [
+    {
+      "restaurant_name": "Oliver's Restaurant",
+      "menu": [
+        {
+          "category": "Dessert",
+          "items": [
+            {
+              "dish_name": "Triple Chocolate Brownie",
+              "description": "Decadent triple chocolate brownie served with optional featured toppings",
+              "price": "$12"
+            },
+            {
+              "dish_name": "Bread Pudding",
+              "description": "Classic bread pudding with daily changing flavors",
+              "price": "$12"
+            },
+            {
+              "dish_name": "Crème Brûlée",
+              "description": "Rich custard topped with a layer of caramelized sugar",
+              "price": "$12"
+            }
+          ]
+        },
+        {
+          "category": "Beverages",
+          "items": [
+            {
+              "dish_name": "Irish Coffee",
+              "description": "Hot coffee with Jameson's Irish Whiskey, Irish Mist, and whipped cream",
+              "price": "$12"
+            },
+            {
+              "dish_name": "Newfoundland Coffee",
+              "description": "Coffee with Screech rum, Cointreau, and whipped cream",
+              "price": "$12"
+            },
+            {
+              "dish_name": "Spanish Coffee",
+              "description": "Coffee with Kahlua, brandy, and whipped cream",
+              "price": "$12"
+            },
+            {
+              "dish_name": "Taylor Fladgate Port",
+              "description": "Aged tawny port wine",
+              "price": "$11"
+            },
+            {
+              "dish_name": "Blueberry Tea",
+              "description": "Orange pekoe tea with Amaretto and Grand Marnier",
+              "price": "$12"
+            },
+            {
+              "dish_name": "Bourbon Hot Toddy",
+              "description": "Hot drink with Jim Beam bourbon, honey, and lemon",
+              "price": "$12"
+            }
+          ]
+        },
+        {
+          "category": "Salad and Soup",
+          "items": [
+            {
+              "dish_name": "Oliver's Salad",
+              "description": "Mixed artisanal greens with toasted almonds, goat cheese, bacon, dried cranberries, and balsamic vinaigrette",
+              "price": "$14 (Small), $18 (Large)"
+            },
+            {
+              "dish_name": "Seafood Chowder",
+              "description": "Creamy chowder with ice shrimp, local cod, mussels, and dill",
+              "price": "$16"
+            },
+            {
+              "dish_name": "Seasonal Soup",
+              "description": "Chef's selection of soup changing daily",
+              "price": "$11"
+            }
+          ]
+        },
+        {
+          "category": "Starters and Sharing",
+          "items": [
+            {
+              "dish_name": "Lemon Pepper Calamari",
+              "description": "Crispy calamari with lemon pepper seasoning and buttermilk ranch sauce",
+              "price": "$18"
+            },
+            {
+              "dish_name": "Almond Baked Goat Cheese",
+              "description": "Almond crusted goat cheese with flamed tomato salsa, balsamic reduction, and pesto",
+              "price": "$18"
+            },
+            {
+              "dish_name": "Crispy Cod Tongues",
+              "description": "Pan-fried cod tongues with scrunchions and house-made tartar sauce",
+              "price": "$19"
+            }
+          ]
+        },
+        {
+          "category": "Dinner",
+          "items": [
+            {
+              "dish_name": "Newfoundland Cod",
+              "description": "Potato and sour cream crusted cod pan seared with frites and vegetables",
+              "price": "$36"
+            },
+            {
+              "dish_name": "Seafood Platter",
+              "description": "Pan-seared local cod with mussels, shrimp, scallops, frites, and vegetables",
+              "price": "$44"
+            },
+            {
+              "dish_name": "Halibut Piccata",
+              "description": "Halibut with lemon-caper butter, garlic, and Parmesan risotto",
+              "price": "$42"
+            },
+            {
+              "dish_name": "Jambalaya Fettuccine",
+              "description": "Pasta with sausage, shrimp, mussels in creamy Cajun marinara",
+              "price": "$38"
+            },
+            {
+              "dish_name": "Balsamic Chicken Fettuccine",
+              "description": "Pasta with mushrooms, chicken, bacon in balsamic cream sauce",
+              "price": "$34"
+            },
+            {
+              "dish_name": "Striploin Steak",
+              "description": "10oz hand-cut striploin with red wine demi-glace, potatoes, and vegetables",
+              "price": "Market price"
+            },
+            {
+              "dish_name": "Creamy Italian Sausage Penne",
+              "description": "Penne pasta with sausage, broccolini, white beans in creamy garlic sauce",
+              "price": "$34"
+            }
+          ]
+        },
+        {
+          "category": "Lunch and Brunch",
+          "items": [
+            {
+              "dish_name": "Goat Cheese Benedict",
+              "description": "Poached eggs with tomato salsa, goat cheese, and hollandaise on English muffins",
+              "price": "$21"
+            },
+            {
+              "dish_name": "Oliver's Breakfast",
+              "description": "Two eggs any style with toast, hash browns, fruit, and bacon",
+              "price": "$18"
+            },
+            {
+              "dish_name": "Breakfast Skillet",
+              "description": "Egg scramble with onions, peppers, choice of meat, cheese, and hash browns",
+              "price": "$20"
+            },
+            {
+              "dish_name": "Penne Carbonara",
+              "description": "Classic carbonara with bacon, egg, and Parmesan",
+              "price": "$19"
+            },
+            {
+              "dish_name": "Creole Chicken Sandwich",
+              "description": "Cajun chicken with chipotle mayo, cheddar, bacon on potato bun",
+              "price": "$22"
+            },
+            {
+              "dish_name": "Steak Sandwich",
+              "description": "Shaved steak with caramelized onions, provolone, and balsamic mayo",
+              "price": "$22"
+            },
+            {
+              "dish_name": "Pan Fried Cod",
+              "description": "Local cod pan-fried with scrunchions",
+              "price": "$24"
+            },
+            {
+              "dish_name": "Italian Sausage Sandwich",
+              "description": "Sausage with roasted peppers, onions, provolone, and marinara",
+              "price": "$19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "restaurant_name": "The Merchant Tavern",
+      "menu": [
+        {
+          "category": "Appetizers",
+          "items": [
+            {
+              "dish_name": "Bread & Butter",
+              "description": "French baguette with daily whipped butter",
+              "price": "$9"
+            },
+            {
+              "dish_name": "NL Oysters",
+              "description": "Fresh Newfoundland oysters with mignonette and hot sauce",
+              "price": "$4 (1), $21 (6), $39 (12), $54 (18)"
+            },
+            {
+              "dish_name": "Green Salad",
+              "description": "Mixed greens with champagne vinaigrette, parmesan, and crispy shallots",
+              "price": "$16"
+            },
+            {
+              "dish_name": "Beef Tartare",
+              "description": "Premium beef tartare with capers, cornichon, and truffle aioli",
+              "price": "$25"
+            },
+            {
+              "dish_name": "Scallop Ceviche",
+              "description": "Fresh scallop ceviche with citrus, jalapeño, and cilantro",
+              "price": "$26"
+            },
+            {
+              "dish_name": "Tuna Tartare",
+              "description": "Fresh tuna with ponzu, green onion, and Japanese mayo",
+              "price": "$25"
+            },
+            {
+              "dish_name": "Mussels",
+              "description": "Mussels steamed in white wine and cream with fennel",
+              "price": "$20"
+            },
+            {
+              "dish_name": "Cod Fritters",
+              "description": "Crispy cod fritters with romesco sauce",
+              "price": "$18"
+            },
+            {
+              "dish_name": "Frites",
+              "description": "Hand-cut fries with cider aioli and calabrian chili aioli",
+              "price": "$11"
+            }
+          ]
+        },
+        {
+          "category": "Entrées",
+          "items": [
+            {
+              "dish_name": "Double Smash Burger",
+              "description": "Two beef patties with American cheese, merchant sauce, and fries",
+              "price": "$28"
+            },
+            {
+              "dish_name": "Shrimp Conchiglie",
+              "description": "Pasta with Newfoundland shrimp in basil pistou sauce",
+              "price": "$30"
+            },
+            {
+              "dish_name": "Wild Leek Ravioli",
+              "description": "House-made ravioli with potato and chive filling",
+              "price": "$28"
+            },
+            {
+              "dish_name": "Beef Ragu Rigatoni",
+              "description": "PEI beef ragu with tomato, fennel, and parmesan",
+              "price": "$28"
+            },
+            {
+              "dish_name": "Mushroom Bigoli",
+              "description": "Pasta with leek cream sauce and roasted mushrooms",
+              "price": "$28"
+            },
+            {
+              "dish_name": "NL Cod",
+              "description": "Newfoundland cod with soubise, potato, and crispy onions",
+              "price": "$38"
+            },
+            {
+              "dish_name": "Half Cornish Hen",
+              "description": "Roasted hen with carrot puree, broccolini, and persillade",
+              "price": "$38"
+            },
+            {
+              "dish_name": "Québec Duck Breast",
+              "description": "Seared duck breast with polenta, mushrooms, and asparagus",
+              "price": "$45"
+            },
+            {
+              "dish_name": "PEI Steak Frites",
+              "description": "8oz PEI steak with salsa verde, red wine jus, and fries",
+              "price": "$55"
+            }
+          ]
+        },
+        {
+          "category": "Desserts",
+          "items": [
+            {
+              "dish_name": "Blueberry Lemon Trifle",
+              "description": "Layers of blueberry compote, mascarpone cream, and lemon curd",
+              "price": "$12"
+            },
+            {
+              "dish_name": "Crème Brûlée",
+              "description": "Classic vanilla custard with poached rhubarb and madeleine",
+              "price": "$12"
+            },
+            {
+              "dish_name": "Chocolate Brownie",
+              "description": "Rich chocolate brownie with ice cream and strawberry",
+              "price": "$14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "restaurant_name": "The Celtic Hearth",
+      "menu": [
+        {
+          "category": "Off The Grill",
+          "items": [
+            {
+              "dish_name": "Beef Striploin",
+              "description": "Grilled strip loin with sea salt, cracked peppercorns, and bordelaise sauce. Add-ons: Sautéed onions ($4), pan-seared scallops ($11), harissa shrimp ($9), peppercorn sauce ($6).",
+              "price": "$38.99"
+            },
+            {
+              "dish_name": "Beef Brisket Poutine",
+              "description": "Braised beef brisket over fries with cheese curds and Murphy Stout gravy. (Price corrected from $29.99 to $22.99)",
+              "price": "$22.99"
+            },
+            {
+              "dish_name": "Cranberry and Feta Crusted Chicken",
+              "description": "Roasted chicken breast with cranberry-spinach cream cheese crust.",
+              "price": "$32.99"
+            },
+            {
+              "dish_name": "Surf and Turf",
+              "description": "Grilled strip loin with Cajun cream sauce, shrimp, scallops, and roasted pepper cream sauce.",
+              "price": "$45.99"
+            }
+          ]
+        },
+        {
+          "category": "Seafood",
+          "items": [
+            {
+              "dish_name": "Cod Au Gratin",
+              "description": "Baked cod in creamy cheddar cheese sauce with scrunchions. (Removed incorrect mixed description)",
+              "price": "$23.99"
+            },
+            {
+              "dish_name": "Cod Tongue Dinner",
+              "description": "Pan-fried cod tongues with scrunchions and tartar sauce.",
+              "price": "$33.99"
+            },
+            {
+              "dish_name": "Prosciutto and Maple Scallops",
+              "description": "Pan-roasted scallops with prosciutto and maple Cajun sauce.",
+              "price": "$38.99"
+            },
+            {
+              "dish_name": "Fish and Chips Supreme",
+              "description": "Two pieces of beer-battered cod with chips, coleslaw, peas, carrots, and tartar sauce. Add extra cod (+$14.99 for 2 pieces).",
+              "price": "$28.99"
+            },
+            {
+              "dish_name": "Cajun Salmon",
+              "description": "8oz salmon with Cajun crust and classic shrimp tacos. (Price corrected from $35.99 to $25.99)",
+              "price": "$25.99"
+            },
+            {
+              "dish_name": "Fish Tacos",
+              "description": "Beer-battered cod with spicy coleslaw, sweet chili mayo, and grilled pineapple.",
+              "price": "$26.99"
+            },
+            {
+              "dish_name": "Pan Fried Cod",
+              "description": "Pan-seared cod with scrunchions and mustard pickle batter sauce.",
+              "price": "$33.99"
+            }
+          ]
+        },
+        {
+          "category": "Burgers",
+          "items": [
+            {
+              "dish_name": "Celtic Burger",
+              "description": "Beef burger with bacon, cheddar, paniko onion rings, lettuce, red onion, pickles, and house sauce. Served with choice of fries, roasted/mashed potatoes, or salad. Substitute sweet potato fries/onion rings (+$5.95).",
+              "price": "$26.99"
+            },
+            {
+              "dish_name": "Traditional Burger",
+              "description": "Classic beef burger with tomato, lettuce, red onion, pickle, and house sauce. Substitutions available (+$5.95).",
+              "price": "$24.99"
+            },
+            {
+              "dish_name": "Moose and Jam Burger",
+              "description": "Newfoundland moose patty with brie, bacon, rhubarb pickles, and crispy onions.",
+              "price": "$28.99"
+            },
+            {
+              "dish_name": "Guinness Burger",
+              "description": "Beef patty with Guinness BBQ sauce, Dublin old cheddar, bacon, crispy onions, lettuce, and tomato.",
+              "price": "$27.99"
+            },
+            {
+              "dish_name": "Chicken Burger",
+              "description": "Pan-seared chicken breast with sweet cranberry mayo, lettuce, and tomato.",
+              "price": "$23.99"
+            },
+            {
+              "dish_name": "Falafel Burger",
+              "description": "Chickpea patty with tzatziki, feta, garlic, onion, parsley, and cilantro.",
+              "price": "$23.99"
+            }
+          ]
+        },
+        {
+          "category": "Sandwiches",
+          "items": [
+            {
+              "dish_name": "Club House",
+              "description": "Triple-decker sandwich with roasted chicken breast, bacon, lettuce, tomato, black forest ham, cheddar, and mayo. Can be made as a wrap.",
+              "price": "$22.99"
+            },
+            {
+              "dish_name": "Chopped Steak Flat Bread",
+              "description": "Flatbread with chopped steak, sautéed onions, mushrooms, béchamel, mozzarella, and crispy onions.",
+              "price": "$23.99"
+            },
+            {
+              "dish_name": "Chicken Prosciutto and Swiss",
+              "description": "Chicken breast with prosciutto, Swiss cheese, pickled onion, basil pesto mayo, lettuce, and tomato. Can be made as a wrap.",
+              "price": "$21.99"
+            },
+            {
+              "dish_name": "Beef Dip",
+              "description": "Murphy's and molasses braised beef brisket with Swiss cheese and au jus. Can be made as a wrap.",
+              "price": "$23.99"
+            },
+            {
+              "dish_name": "Steak and Cheese",
+              "description": "Sautéed steak with mushrooms, onions, mozzarella, and au jus dip. Can be made as a wrap.",
+              "price": "$23.99"
+            },
+            {
+              "dish_name": "Hot Turkey",
+              "description": "Roasted turkey with savoury dressing and gravy on fresh bread. Can be made as a wrap.",
+              "price": "$21.99"
+            }
+          ]
+        },
+        {
+          "category": "Appetizers",
+          "items": [
+            {
+              "dish_name": "Crab and Cod Cakes",
+              "description": "Award-winning cakes with cod, crab, potatoes, onions, pickles, and tartar sauce.",
+              "price": "$16.99"
+            },
+            {
+              "dish_name": "Crab Shrimp and Artichoke Dip",
+              "description": "Creamy dip with crab meat, ice shrimp, chopped artichokes, and crispy pita chips.",
+              "price": "$18.99"
+            },
+            {
+              "dish_name": "Cod Tongues",
+              "description": "Pan-fried with scrunchions, rhubarb pickles, and mustard pickle tartar sauce.",
+              "price": "$17.99"
+            },
+            {
+              "dish_name": "Bacon and Maple Scallops",
+              "description": "Seared scallops with crispy bacon and maple Cajun sauce, served with peppers.",
+              "price": "$18.99"
+            },
+            {
+              "dish_name": "Nachos",
+              "description": "Classic nachos with layered tortilla chips, jalapeño, black beans, olives, and cheddar-monterey jack-mozzarella blend. Add-ons: Chicken (+$5), extra cheese (+$4).",
+              "price": "$25.99"
+            },
+            {
+              "dish_name": "Sexy Nachos",
+              "description": "Loaded nachos with roasted tomato, jalapeño, black beans, red onion, ½ lb cheese blend, and BBQ sauce. Add-ons: Guacamole (+$4), salsa/sour cream (+$2).",
+              "price": "$27.99"
+            },
+            {
+              "dish_name": "Beef Brisket Nachos",
+              "description": "Nachos topped with Murphy's and molasses braised beef brisket, jalapeño, black beans, olives, and cheese blend.",
+              "price": "$28.99"
+            }
+          ]
+        },
+        {
+          "category": "Starters",
+          "items": [
+            {
+              "dish_name": "Caesar Salad",
+              "description": "Crisp romaine with house-made Caesar dressing, bacon, parmesan, and croutons. Add-ons: Oven-roasted chicken (+$5), scallops (+$11), shrimp (+$9), striploin (+$19).",
+              "price": "$15.99"
+            },
+            {
+              "dish_name": "Roasted Beet Salad",
+              "description": "Mixed greens with cherry tomatoes, carrot, sweet/spicy pecans, goat cheese, and herb yogurt dressing. (Fixed typo: 'Beet Beet' → 'Beet')",
+              "price": "$15.99"
+            }
+          ]
+        },
+        {
+          "category": "Pasta",
+          "items": [
+            {
+              "dish_name": "Lamb Pappardelle",
+              "description": "Slow-braised lamb in red wine and lamb sauce with cream, parmesan, roasted mushrooms, broccoli, and peppers.",
+              "price": "$34.99"
+            },
+            {
+              "dish_name": "Creamy Alfredo",
+              "description": "Fettuccine with garlic Alfredo sauce and parmesan. Add roasted chicken or grilled shrimp (+$9).",
+              "price": "$22.99"
+            }
+          ]
+        },
+        {
+          "category": "Dinner",
+          "items": [
+            {
+              "dish_name": "Steamed Mussels",
+              "description": "Newfoundland mussels steamed in white wine garlic cream.",
+              "price": "$17.99"
+            },
+            {
+              "dish_name": "Crispy Fried Chicken Wings",
+              "description": "Lightly coated in seasoned flour, fried, and tossed in Cajun seasoning.",
+              "price": "$17.99"
+            },
+            {
+              "dish_name": "Spinach Dip",
+              "description": "Spinach and cream cheese with crispy bacon, 3-cheese blend, served with tortilla chips and baguette.",
+              "price": "$17.99"
+            },
+            {
+              "dish_name": "Onion Rings",
+              "description": "Thick-cut Spanish onions with parmesan crust and chipotle mayo.",
+              "price": "$16.99"
+            },
+            {
+              "dish_name": "Seafood Chowder",
+              "description": "Creamy chowder with shrimp, scallops, mussels, salmon, and cod.",
+              "price": "$17.99"
+            },
+            {
+              "dish_name": "French Onion Soup",
+              "description": "Caramelized onions in red wine and beef broth, topped with croutons, Swiss, mozzarella, and parmesan.",
+              "price": "$14.99"
+            },
+            {
+              "dish_name": "Turkey Noodle Soup",
+              "description": "Roasted turkey with salt beef, root vegetables, and noodles.",
+              "price": "$12.99"
+            },
+            {
+              "dish_name": "Seafood Pappardelle",
+              "description": "Shrimp, scallops, and mussels in garlic pesto cream sauce with parmesan.",
+              "price": "$38.99"
+            },
+            {
+              "dish_name": "Roasted Tomato and Jalapeño Pasta",
+              "description": "Fettuccine in spicy tomato sauce with cherry tomatoes and bell peppers. Add chicken or shrimp (+$9).",
+              "price": "$22.99"
+            },
+            {
+              "dish_name": "Lamb Shepherd's Pie",
+              "description": "Traditional braised lamb with root vegetables and mashed potato topping. (Added missing item from OCR)",
+              "price": "$28.99"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
