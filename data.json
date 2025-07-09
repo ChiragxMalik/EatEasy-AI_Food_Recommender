@@ -74,3 +74,124 @@
     }
   ]
 }
+
+
+{
+  "restaurants": [
+    {
+      "restaurant": "The Merchant Tavern",
+      "currency": "CAD",
+      "menu": [
+        {
+          "dish_name": "Double Smash Burger",
+          "description": "American cheese, lettuce, tomato, pickle, onion, merchant sauce, fries",
+          "price": 28.00,
+          "category": "Entrees"
+        },
+        {
+          "dish_name": "Shrimp Conchiglie",
+          "description": "NL cold water shrimp, basil pistou, parmesan, garlic, shallot",
+          "price": 30.00,
+          "category": "Entrees"
+        },
+        {
+          "dish_name": "Risotta & Mascarpone Agnolotti",
+          "description": "arrabbiata, basil, parsley, chive, parmesan",
+          "price": 30.00,
+          "category": "Entrees"
+        },
+        {
+          "dish_name": "Beef Ragu Rigatoni",
+          "description": "PEI beef, soffritto, garlic, tomato, fennel, parmesan",
+          "price": 28.00,
+          "category": "Entrees"
+        },
+        {
+          "dish_name": "Mushroom Spaghetti",
+          "description": "leek cream, roasted mushroom, garlic, parmesan",
+          "price": 28.00,
+          "category": "Entrees"
+        },
+        {
+          "dish_name": "NL Cod",
+          "description": "soubise, potato, spring greens, crispy onion",
+          "price": 38.00,
+          "category": "Entrees"
+        },
+        {
+          "dish_name": "Half Cornish Hen",
+          "description": "carrot puree, charred onion, zucchini, persillade sauce",
+          "price": 38.00,
+          "category": "Entrees"
+        },
+        {
+          "dish_name": "Québec Duck Breast",
+          "description": "polenta, mushroom, asparagus, jus",
+          "price": 45.00,
+          "category": "Entrees"
+        },
+        {
+          "dish_name": "PEI Steak Frites",
+          "description": "8oz butcher cut, salsa verde, red wine jus",
+          "price": 55.00,
+          "category": "Entrees"
+        },
+        {
+          "dish_name": "Bread and butter",
+          "description": "French baguette, daily whipped butter",
+          "price": 9.00,
+          "category": "Appetizers"
+        },
+
+        {
+          "dish_name": "Scallop Ceviche",
+          "description": "citrus, jalapeño, cilantro, corn chips",
+          "price": 26.00,
+          "category": "Appetizers"
+        },
+        {
+          "dish_name": "Tuna Tartare",
+          "description": "ponzu, green onion, jalapeño, Japanese mayo, wontons",
+          "price": 25.00,
+          "category": "Appetizers"
+        },
+        {
+          "dish_name": "Mussels",
+          "description": "Neonato, fennel, white wine, cream",
+          "price": 20.00,
+          "category": "Appetizers"
+        },
+        {
+          "dish_name": "Cod Fritters",
+          "description": "romesco sauce, lemon",
+          "price": 18.00,
+          "category": "Appetizers"
+        },
+        {
+          "dish_name": "Frites",
+          "description": "cider aioli & calabrian chili aioli",
+          "price": 11.00,
+          "category": "Sides"
+        },
+        {
+          "dish_name": "Blueberry Lemon Trifle",
+          "description": "wild blueberry compote, mascarpone cream, vanilla cake, lemon curd",
+          "price": 12.00,
+          "category": "Desserts"
+        },
+        {
+          "dish_name": "Crème Brûlée",
+          "description": "poached rhubarb, vanilla custard, madeleine",
+          "price": 12.00,
+          "category": "Desserts"
+        },
+        {
+          "dish_name": "Chocolate Brownie",
+          "description": "strawberry, vanilla ice cream, candied cacao nibs",
+          "price": 14.00,
+          "category": "Desserts"
+        }
+      ]
+    }
+  ]
+}

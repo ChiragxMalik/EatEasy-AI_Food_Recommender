@@ -55,64 +55,17 @@ def store_embeddings(documents, embedding_model, collection_name, persist_direct
     )
     return vector_db
 
-def search_dishes(query, vector_db, k=3):
-    """
-    Search for dishes matching the query
-    Args:
-        query: User's search query
-        vector_db: Chroma vector database
-        k: Number of results to return
-    Returns:
-        List of matching dishes with their details
-    """
-    results = vector_db.similarity_search_with_relevance_scores(query, k=k)
-    
-    matches = []
-    for doc, score in results:
-        if score < 0.5:  # Filter out low relevance matches
-            continue
-            
-        matches.append({
-            "dish_name": doc.metadata["dish_name"],
-            "description": doc.metadata["description"],
-            "restaurant": doc.metadata["restaurant"],
-            "price": doc.metadata["price"],
-            "category": doc.metadata["category"],
-            "relevance_score": float(score)
-        })
-    
-    return matches
-
 # 6. Run the whole pipeline
 if __name__ == "__main__":
     file_path = "data.json"  # 🔁 Change if your file is in another folder
     persist_directory = "db"
     collection_name = get_clean_collection_name(file_path)
 
-    # Load or create the vector database
     documents = load_menu_data(file_path)
     enriched_docs = prepare_documents(documents)
     embedding_model = get_embeddings_model()
     vector_db = store_embeddings(enriched_docs, embedding_model, collection_name, persist_directory)
 
     print(f"✅ Menu vector DB created with {len(enriched_docs)} items.")
-    
-    # Interactive search loop
-    while True:
-        query = input("\nWhat kind of food are you looking for? (or 'quit' to exit): ")
-        if query.lower() == 'quit':
-            break
-            
-        matches = search_dishes(query, vector_db)
-        
-        if not matches:
-            print("No matching dishes found.")
-            continue
-            
-        print("\nHere are the matching dishes:")
-        for i, match in enumerate(matches, 1):
-            print(f"\n{i}. {match['dish_name']}")
-            print(f"   Restaurant: {match['restaurant']}")
-            print(f"   Description: {match['description']}")
-            print(f"   Price: ${match['price']:.2f}")
-            print(f"   Category: {match['category']}")
+    print(f"📁 Collection: {collection_name}")
+    print(f"💾 Saved to: {persist_directory}/")
