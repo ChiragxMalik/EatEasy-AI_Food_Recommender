@@ -142,6 +142,25 @@
           "price": 9.00,
           "category": "Appetizers"
         },
+        {
+          "dish_name": "NL Oysters",
+          "description": "mignonette, lemon, jalapeno hot sauce",
+          "price": 14.00,
+          "category": "Appetizers"
+        },
+        {
+          "dish_name": "Green Salad",
+          "description": "champagne vinaigrette, parmesan, crispy shallot",
+          "price": 16.00,
+          "category": "Appetizers"
+        },
+        {
+          "dish_name": "Beef Tartare",
+          "description": "shallot,capers, cornichon, parmesan,truffle aioli, gaufrette potato chips",
+          "price": 25.00,
+          "category": "Appetizers"
+        },
+        
 
         {
           "dish_name": "Scallop Ceviche",
