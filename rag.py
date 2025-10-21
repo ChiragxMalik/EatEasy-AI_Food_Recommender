@@ -9,7 +9,7 @@ import re
 def load_menu_data(file_path):
     loader = JSONLoader(
         file_path=file_path,
-        jq_schema='.restaurants[] | .menu[] | {dish_name, description, price, category, restaurant: .restaurant}',
+        jq_schema='.restaurants[] as $restaurant | $restaurant.menu[] | . + {restaurant: $restaurant.restaurant}',
         text_content=False  # ✅ Because we're returning dicts, not strings
     )
     documents = loader.load()
@@ -17,16 +17,23 @@ def load_menu_data(file_path):
 
 # 2. Prepare documents: move metadata & set text for embedding
 def prepare_documents(documents):
+    import json
+    
     for doc in documents:
-        meta = doc.metadata
+        # Parse the JSON content from page_content
+        try:
+            data = json.loads(doc.page_content)
+        except:
+            print(f"Error parsing document: {doc.page_content}")
+            continue
 
-        # Safely extract fields and set them in metadata
+        # Extract fields and set them in metadata, handling None values
         doc.metadata = {
-            "restaurant": meta.get("restaurant", "unknown"),
-            "price": meta.get("price", 0),
-            "category": meta.get("category", "unknown"),
-            "dish_name": meta.get("dish_name", "unknown"),
-            "description": meta.get("description", "")
+            "restaurant": data.get("restaurant") or "unknown",
+            "price": data.get("price") or 0,
+            "category": data.get("category") or "unknown", 
+            "dish_name": data.get("dish_name") or "unknown",
+            "description": data.get("description") or ""
         }
 
         # This is the actual text used for search
@@ -47,6 +54,15 @@ def get_clean_collection_name(file_path):
 
 # 5. Store in Chroma vector DB
 def store_embeddings(documents, embedding_model, collection_name, persist_directory="menu_db"):
+    # Delete existing collection if it exists to avoid conflicts
+    try:
+        import shutil
+        import os
+        if os.path.exists(persist_directory):
+            shutil.rmtree(persist_directory)
+    except:
+        pass
+    
     vector_db = Chroma.from_documents(
         documents=documents,
         embedding=embedding_model,
@@ -59,7 +75,7 @@ def store_embeddings(documents, embedding_model, collection_name, persist_direct
 if __name__ == "__main__":
     file_path = "data.json"  # 🔁 Change if your file is in another folder
     persist_directory = "db"
-    collection_name = get_clean_collection_name(file_path)
+    collection_name = "data"  # Use fixed name to match app.py
 
     documents = load_menu_data(file_path)
     enriched_docs = prepare_documents(documents)
