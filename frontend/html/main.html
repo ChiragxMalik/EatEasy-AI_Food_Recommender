@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>AI Food Recommender with LLM</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#63a6e9",
+              "background-light": "#f6f7f8",
+              "background-dark": "#111921",
+            },
+            fontFamily: {
+              "display": ["Manrope", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "0.5rem", "lg": "1rem", "xl": "1.5rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+    <script>
+      // API Configuration
+      const API_BASE_URL = 'http://localhost:8000';
+      
+      // State management
+      let isLoading = false;
+      
+      // Get recommendation from API
+      async function getRecommendation(query) {
+        try {
+          isLoading = true;
+          updateUI();
+          
+          const response = await fetch(`${API_BASE_URL}/api/recommend`, {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ query: query })
+          });
+          
+          if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+          }
+          
+          const data = await response.json();
+          displayRecommendation(data.recommendation);
+          
+        } catch (error) {
+          console.error('Error:', error);
+          displayError('Sorry, something went wrong. Please try again!');
+        } finally {
+          isLoading = false;
+          updateUI();
+        }
+      }
+      
+      // Display recommendation
+      function displayRecommendation(text) {
+        const recommendationEl = document.getElementById('recommendation-text');
+        // Replace newlines with <br> tags and preserve formatting
+        recommendationEl.innerHTML = text.replace(/\n\n/g, '<br><br>').replace(/\n/g, '<br>');
+      }
+      
+      // Display error
+      function displayError(message) {
+        const recommendationEl = document.getElementById('recommendation-text');
+        recommendationEl.textContent = message;
+        recommendationEl.classList.add('text-red-500');
+        setTimeout(() => {
+          recommendationEl.classList.remove('text-red-500');
+        }, 3000);
+      }
+      
+      // Update UI based on loading state
+      function updateUI() {
+        const button = document.getElementById('submit-btn');
+        const input = document.getElementById('query-input');
+        
+        if (isLoading) {
+          button.disabled = true;
+          button.innerHTML = '<span class="material-symbols-outlined animate-spin">progress_activity</span>';
+          input.disabled = true;
+        } else {
+          button.disabled = false;
+          button.innerHTML = '<span class="material-symbols-outlined">send</span>';
+          input.disabled = false;
+        }
+      }
+      
+
+      // Initialize on page load
+      document.addEventListener('DOMContentLoaded', function() {
+        const input = document.getElementById('query-input');
+        const button = document.getElementById('submit-btn');
+        
+        // Handle submit button click
+        button.addEventListener('click', function() {
+          const query = input.value.trim();
+          if (query) {
+            getRecommendation(query);
+          }
+        });
+        
+        // Handle Enter key
+        input.addEventListener('keypress', function(e) {
+          if (e.key === 'Enter') {
+            const query = input.value.trim();
+            if (query) {
+              getRecommendation(query);
+            }
+          }
+        });
+      });
+    </script>
+<style>
+      .glassmorphism {
+        background-color: rgba(255, 255, 255, 0.6);
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+      }
+      .dark .glassmorphism {
+        background-color: rgba(30, 41, 59, 0.6);-webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(51, 65, 85, 0.5);}
+      
+      /* Floating Food Animations */
+      .floating-food {
+        position: fixed;
+        font-size: 2rem;
+        opacity: 0.15;
+        pointer-events: none;
+        z-index: 1;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+      }
+      
+      .food-1 { top: 10%; left: 5%; animation: float-1 20s infinite; }
+      .food-2 { top: 20%; right: 10%; animation: float-2 25s infinite; }
+      .food-3 { top: 40%; left: 15%; animation: float-3 18s infinite; }
+      .food-4 { top: 60%; right: 20%; animation: float-4 22s infinite; }
+      .food-5 { top: 80%; left: 10%; animation: float-5 24s infinite; }
+      .food-6 { top: 30%; right: 5%; animation: float-6 19s infinite; }
+      .food-7 { top: 70%; right: 15%; animation: float-7 21s infinite; }
+      .food-8 { top: 50%; left: 8%; animation: float-8 23s infinite; }
+      .food-9 { top: 15%; left: 25%; animation: float-9 26s infinite; }
+      .food-10 { top: 85%; right: 25%; animation: float-10 20s infinite; }
+      
+      @keyframes float-1 {
+        0%, 100% { transform: translate(0, 0) rotate(0deg); }
+        25% { transform: translate(30px, -20px) rotate(5deg); }
+        50% { transform: translate(-20px, 30px) rotate(-5deg); }
+        75% { transform: translate(20px, 20px) rotate(3deg); }
+      }
+      
+      @keyframes float-2 {
+        0%, 100% { transform: translate(0, 0) rotate(0deg); }
+        33% { transform: translate(-25px, 25px) rotate(-8deg); }
+        66% { transform: translate(25px, -25px) rotate(8deg); }
+      }
+      
+      @keyframes float-3 {
+        0%, 100% { transform: translate(0, 0) rotate(0deg); }
+        25% { transform: translate(-30px, -30px) rotate(-10deg); }
+        50% { transform: translate(30px, 30px) rotate(10deg); }
+        75% { transform: translate(-15px, 15px) rotate(-5deg); }
+      }
+      
+      @keyframes float-4 {
+        0%, 100% { transform: translate(0, 0) rotate(0deg); }
+        20% { transform: translate(20px, -30px) rotate(6deg); }
+        40% { transform: translate(-30px, 20px) rotate(-6deg); }
+        60% { transform: translate(30px, 30px) rotate(4deg); }
+        80% { transform: translate(-20px, -20px) rotate(-4deg); }
+      }
+      
+      @keyframes float-5 {
+        0%, 100% { transform: translate(0, 0) rotate(0deg); }
+        30% { transform: translate(-35px, -25px) rotate(-7deg); }
+        60% { transform: translate(35px, 25px) rotate(7deg); }
+      }
+      
+      @keyframes float-6 {
+        0%, 100% { transform: translate(0, 0) rotate(0deg); }
+        25% { transform: translate(25px, 35px) rotate(9deg); }
+        50% { transform: translate(-25px, -35px) rotate(-9deg); }
+        75% { transform: translate(30px, -30px) rotate(5deg); }
+      }
+      
+      @keyframes float-7 {
+        0%, 100% { transform: translate(0, 0) rotate(0deg); }
+        33% { transform: translate(-20px, 30px) rotate(-6deg); }
+        66% { transform: translate(20px, -30px) rotate(6deg); }
+      }
+      
+      @keyframes float-8 {
+        0%, 100% { transform: translate(0, 0) rotate(0deg); }
+        25% { transform: translate(35px, -25px) rotate(8deg); }
+        50% { transform: translate(-35px, 25px) rotate(-8deg); }
+        75% { transform: translate(25px, 35px) rotate(4deg); }
+      }
+      
+      @keyframes float-9 {
+        0%, 100% { transform: translate(0, 0) rotate(0deg); }
+        20% { transform: translate(-30px, -35px) rotate(-10deg); }
+        40% { transform: translate(30px, 35px) rotate(10deg); }
+        60% { transform: translate(-25px, 25px) rotate(-5deg); }
+        80% { transform: translate(25px, -25px) rotate(5deg); }
+      }
+      
+      @keyframes float-10 {
+        0%, 100% { transform: translate(0, 0) rotate(0deg); }
+        30% { transform: translate(30px, -30px) rotate(7deg); }
+        60% { transform: translate(-30px, 30px) rotate(-7deg); }
+      }
+      
+      .dark .floating-food { opacity: 0.1; }
+      
+      @media (max-width: 768px) {
+        .floating-food { display: none; }
+      }
+    </style>
+</head>
+<body class="font-display">
+<div class="relative flex h-auto min-h-screen w-full flex-col bg-background-light dark:bg-background-dark group/design-root overflow-x-hidden">
+<!-- Floating Food Elements -->
+<div class="floating-food food-1">🍕</div>
+<div class="floating-food food-2">🍔</div>
+<div class="floating-food food-3">🍝</div>
+<div class="floating-food food-4">🍣</div>
+<div class="floating-food food-5">🌮</div>
+<div class="floating-food food-6">🍰</div>
+<div class="floating-food food-7">🍜</div>
+<div class="floating-food food-8">🥗</div>
+<div class="floating-food food-9">🍱</div>
+<div class="floating-food food-10">🥘</div>
+
+<div class="absolute inset-0 z-0">
+<div class="absolute -top-40 -left-40 h-96 w-96 rounded-full bg-primary/20 blur-3xl dark:bg-primary/30"></div>
+<div class="absolute -bottom-40 -right-40 h-96 w-96 rounded-full bg-pink-300/20 blur-3xl dark:bg-pink-500/30"></div>
+</div>
+<div class="layout-container flex h-full grow flex-col relative z-10">
+<main class="flex flex-1 justify-center py-5 px-4 sm:px-6 md:px-8 lg:px-10 xl:px-40">
+<div class="layout-content-container flex flex-col max-w-[960px] flex-1 items-center gap-8">
+<div class="flex flex-col gap-3 text-center w-full max-w-2xl mt-16 sm:mt-24">
+<h1 class="text-slate-900 dark:text-white text-4xl sm:text-5xl font-black leading-tight tracking-[-0.033em]">AI Food Recommender with LLM</h1>
+<p class="text-slate-500 dark:text-slate-400 text-base sm:text-lg font-normal leading-normal">Type what you're craving!</p>
+</div>
+<div class="flex w-full max-w-2xl flex-wrap items-end gap-4 px-4 py-3">
+<label class="flex flex-col min-w-40 flex-1">
+<div class="flex w-full flex-1 items-stretch rounded-xl shadow-lg shadow-slate-300/20 dark:shadow-black/20">
+<input id="query-input" type="text" class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-l-xl text-slate-800 dark:text-slate-200 focus:outline-0 focus:ring-2 focus:ring-primary/50 dark:focus:ring-primary/60 border border-slate-300 dark:border-slate-700 bg-white/80 dark:bg-slate-800/80 h-14 placeholder:text-slate-400 dark:placeholder:text-slate-500 p-[15px] text-base font-normal leading-normal transition-all duration-300" placeholder="Spicy, sweet, or savory? Explore top restaurant menus across St. John’s"/>
+<button id="submit-btn" class="text-white flex items-center justify-center px-4 rounded-r-xl border border-primary bg-primary hover:bg-primary/90 dark:hover:bg-primary/80 transition-colors">
+<span class="material-symbols-outlined">send</span>
+</button>
+</div>
+</label>
+</div>
+<div class="p-4 w-full max-w-2xl mt-4">
+<div class="flex flex-col items-stretch justify-start rounded-xl glassmorphism shadow-xl shadow-slate-300/20 dark:shadow-black/20 p-6 min-h-[160px]">
+<div class="flex w-full min-w-72 grow flex-col items-stretch justify-start gap-2">
+<div class="flex items-start justify-between">
+<p class="text-slate-900 dark:text-white text-lg font-bold leading-tight tracking-[-0.015em]">Expert's Recommendation:</p>
+</div>
+<div class="flex items-end gap-3 justify-between mt-2">
+<p id="recommendation-text" class="text-slate-600 dark:text-slate-300 text-base font-normal leading-normal">Your delicious recommendation will appear here...</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+</div>
+</div>
+</body></html>

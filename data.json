@@ -1,134 +1,116 @@
 {
   "restaurants": [
     {
-      "restaurant": "The Merchant Tavern",
+      "restaurant": "Exile Restaurant and Lounge",
       "currency": "CAD",
       "menu": [
         {
-          "dish_name": "Double Smash Burger",
-          "description": "American cheese, lettuce, tomato, pickle, onion, merchant sauce, fries",
-          "price": 28.00,
-          "category": "Entrees"
+          "dish_name": "Grilled Street Corn",
+          "description": "Charred corn with spices and cotija-style cheese. Sweet, smoky corn with salty, tangy cheese. Savory with a hint of spice. Charred, caramelized flavor.",
+          "price": 16,
+          "category": "Starters & Small Plates"
         },
         {
-          "dish_name": "Shrimp Conchiglie",
-          "description": "NL cold water shrimp, basil pistou, parmesan, garlic, shallot",
-          "price": 30.00,
-          "category": "Entrees"
+          "dish_name": "Mussel Toast",
+          "description": "Mussels served on toasted bread. Briny, tender mussels with garlic butter on crispy toast. Savory and rich with oceanic flavor. Indulgent appetizer.",
+          "price": 16,
+          "category": "Starters & Small Plates"
         },
         {
-          "dish_name": "Risotta & Mascarpone Agnolotti",
-          "description": "arrabbiata, basil, parsley, chive, parmesan",
-          "price": 30.00,
-          "category": "Entrees"
+          "dish_name": "Tomatillo & Halloumi Caprese",
+          "description": "Twist on caprese with tomatillo and fried halloumi. Tangy tomatillo with salty, squeaky fried halloumi. Fresh and savory with bright, acidic notes. Unique and flavorful.",
+          "price": 16,
+          "category": "Starters & Small Plates"
         },
         {
-          "dish_name": "Beef Ragu Rigatoni",
-          "description": "PEI beef, soffritto, garlic, tomato, fennel, parmesan",
-          "price": 28.00,
-          "category": "Entrees"
+          "dish_name": "Pad Thai Brussel Sprouts",
+          "description": "Brussel sprouts tossed in pad thai style sauce. Crispy sprouts with sweet, tangy, and slightly spicy pad thai flavors. Savory with peanut and tamarind notes. Unique fusion dish.",
+          "price": 16,
+          "category": "Starters & Small Plates"
         },
         {
-          "dish_name": "Mushroom Spaghetti",
-          "description": "leek cream, roasted mushroom, garlic, parmesan",
-          "price": 28.00,
-          "category": "Entrees"
+          "dish_name": "Grilled Striploin",
+          "description": "Grilled striploin steak with sides. Juicy, tender beef with charred exterior. Savory and rich with beefy flavor. Cooked to your preference. Hearty and satisfying.",
+          "price": 34,
+          "category": "Mains"
         },
         {
-          "dish_name": "NL Cod",
-          "description": "soubise, potato, spring greens, crispy onion",
-          "price": 38.00,
-          "category": "Entrees"
+          "dish_name": "Pan-Seared Tenderloin",
+          "description": "Pan-seared tenderloin with jus. Buttery-tender beef with rich, savory jus. Melt-in-your-mouth texture. Luxurious and flavorful. Premium cut.",
+          "price": 38,
+          "category": "Mains"
         },
         {
-          "dish_name": "Half Cornish Hen",
-          "description": "carrot puree, charred onion, zucchini, persillade sauce",
-          "price": 38.00,
-          "category": "Entrees"
+          "dish_name": "Grilled Arctic Char",
+          "description": "Pan-grilled Arctic char with seasonal sides. Delicate, flaky fish with mild, slightly sweet flavor. Savory with buttery notes. Light and fresh. Healthy option.",
+          "price": 32,
+          "category": "Mains"
         },
         {
-          "dish_name": "Québec Duck Breast",
-          "description": "polenta, mushroom, asparagus, jus",
-          "price": 45.00,
-          "category": "Entrees"
+          "dish_name": "Stuffed Chicken Supreme",
+          "description": "Chicken supreme stuffed with seasonal fillings. Juicy chicken breast with savory stuffing. Rich and flavorful with herbs. Tender and satisfying.",
+          "price": 28,
+          "category": "Mains"
         },
         {
-          "dish_name": "PEI Steak Frites",
-          "description": "8oz butcher cut, salsa verde, red wine jus",
-          "price": 55.00,
-          "category": "Entrees"
+          "dish_name": "Roasted Cod",
+          "description": "Roasted cod with seasonal veg and sauce. Flaky, mild white fish with tender texture. Savory and light with fresh vegetable accompaniments. Healthy and delicious.",
+          "price": 30,
+          "category": "Mains"
         },
         {
-          "dish_name": "Bread and butter",
-          "description": "French baguette, daily whipped butter",
-          "price": 9.00,
-          "category": "Appetizers"
+          "dish_name": "Breaded Fish & Chips",
+          "description": "House-breaded fish and chips. Crispy, crunchy coating with tender fish inside. Savory and comforting. Golden and satisfying. Classic pub fare.",
+          "price": 26,
+          "category": "Mains"
         },
         {
-          "dish_name": "NL Oysters",
-          "description": "mignonette, lemon, jalapeno hot sauce",
-          "price": 14.00,
-          "category": "Appetizers"
+          "dish_name": "Lamb Burger",
+          "description": "Ground lamb burger with toppings. Rich, savory lamb with slightly gamey flavor. Juicy and flavorful. More complex than beef. Gourmet burger option.",
+          "price": 26,
+          "category": "Mains"
         },
         {
-          "dish_name": "Green Salad",
-          "description": "champagne vinaigrette, parmesan, crispy shallot",
-          "price": 16.00,
-          "category": "Appetizers"
+          "dish_name": "Chop Cheese Sandwich",
+          "description": "Chop cheese style sandwich with beef and cheese. Savory ground beef with melted cheese on toasted bun. Rich, cheesy, and satisfying. Comfort food classic.",
+          "price": 20,
+          "category": "Mains"
         },
         {
-          "dish_name": "Beef Tartare",
-          "description": "shallot, capers, cornichon, parmesan, truffle aioli, gaufrette potato chips",
-          "price": 25.00,
-          "category": "Appetizers"
+          "dish_name": "Sweet & Sour Pork",
+          "description": "Sweet and sour pork with rice. Crispy pork in tangy-sweet sauce with pineapple and peppers. Balanced sweet and sour flavors. Savory with fruity notes.",
+          "price": 22,
+          "category": "Mains"
         },
         {
-          "dish_name": "Scallop Ceviche",
-          "description": "citrus, jalapeño, cilantro, corn chips",
-          "price": 26.00,
-          "category": "Appetizers"
+          "dish_name": "Tempura Mushroom Sandwich",
+          "description": "Tempura-battered mushroom sandwich. Crispy, light tempura coating with meaty mushrooms. Savory and umami-rich. Satisfying vegetarian option.",
+          "price": 18,
+          "category": "Vegetarian"
         },
         {
-          "dish_name": "Tuna Tartare",
-          "description": "ponzu, green onion, jalapeño, Japanese mayo, wontons",
-          "price": 25.00,
-          "category": "Appetizers"
+          "dish_name": "Veg Fettuccine",
+          "description": "Vegetarian fettuccine with seasonal veg. Fresh vegetables in light sauce with pasta. Savory with garden-fresh flavors. Healthy and satisfying.",
+          "price": 22,
+          "category": "Vegetarian"
         },
         {
-          "dish_name": "Mussels",
-          "description": "Neonato, fennel, white wine, cream",
-          "price": 20.00,
-          "category": "Appetizers"
+          "dish_name": "Mussels (Exile)",
+          "description": "Local mussels prepared per daily style. Tender, briny mussels in flavorful broth. Savory with garlic and wine notes. Fresh oceanic taste.",
+          "price": 20,
+          "category": "Seafood"
         },
         {
-          "dish_name": "Cod Fritters",
-          "description": "romesco sauce, lemon",
-          "price": 18.00,
-          "category": "Appetizers"
+          "dish_name": "Crispy Salt Cod Cake",
+          "description": "Crispy salt cod cake served with sauce. Crunchy exterior with flaky, savory cod inside. Salty and rich with traditional Newfoundland flavors. Comfort food.",
+          "price": 18,
+          "category": "Seafood"
         },
         {
-          "dish_name": "Frites",
-          "description": "cider aioli & calabrian chili aioli",
-          "price": 11.00,
-          "category": "Sides"
-        },
-        {
-          "dish_name": "Blueberry Lemon Trifle",
-          "description": "wild blueberry compote, mascarpone cream, vanilla cake, lemon curd",
-          "price": 12.00,
-          "category": "Desserts"
-        },
-        {
-          "dish_name": "Crème Brûlée",
-          "description": "poached rhubarb, vanilla custard, madeleine",
-          "price": 12.00,
-          "category": "Desserts"
-        },
-        {
-          "dish_name": "Chocolate Brownie",
-          "description": "strawberry, vanilla ice cream, candied cacao nibs",
-          "price": 14.00,
-          "category": "Desserts"
+          "dish_name": "Fish Cakes (Exile)",
+          "description": "Local fish cakes with tartar. Golden-fried fish cakes with creamy tartar sauce. Savory, mild fish flavor. Crispy outside, tender inside. Local specialty.",
+          "price": 16,
+          "category": "Seafood"
         }
       ]
     },
@@ -138,183 +120,435 @@
       "menu": [
         {
           "dish_name": "Triple Chocolate Brownie",
-          "description": "Decadent triple chocolate brownie served with optional featured toppings",
-          "price": 12.00,
+          "description": "Decadent triple chocolate brownie served with optional featured toppings. Rich, fudgy, and intensely chocolatey. Sweet and indulgent. Chocolate lover's dream.",
+          "price": 12,
           "category": "Dessert"
         },
         {
           "dish_name": "Bread Pudding",
-          "description": "Classic bread pudding with daily changing flavors",
-          "price": 12.00,
+          "description": "Classic bread pudding with daily changing flavors. Warm, custardy, and comforting. Sweet with cinnamon notes. Soft and satisfying.",
+          "price": 12,
           "category": "Dessert"
         },
         {
           "dish_name": "Crème Brûlée",
-          "description": "Rich custard topped with a layer of caramelized sugar",
-          "price": 12.00,
+          "description": "Rich custard topped with a layer of caramelized sugar. Creamy and smooth with crunchy burnt sugar top. Sweet and luxurious. Classic French dessert.",
+          "price": 12,
           "category": "Dessert"
         },
         {
           "dish_name": "Irish Coffee",
-          "description": "Hot coffee with Jameson's Irish Whiskey, Irish Mist, and whipped cream",
-          "price": 12.00,
+          "description": "Hot coffee with Jameson's Irish Whiskey, Irish Mist, and whipped cream. Warm, boozy, and sweet. Rich coffee flavor with whiskey kick. Comforting beverage.",
+          "price": 12,
           "category": "Beverages"
         },
         {
           "dish_name": "Newfoundland Coffee",
-          "description": "Coffee with Screech rum, Cointreau, and whipped cream",
-          "price": 12.00,
+          "description": "Coffee with Screech rum, Cointreau, and whipped cream. Sweet, warming coffee with local rum. Rich and boozy. Newfoundland specialty.",
+          "price": 12,
           "category": "Beverages"
         },
         {
           "dish_name": "Spanish Coffee",
-          "description": "Coffee with Kahlua, brandy, and whipped cream",
-          "price": 12.00,
-          "category": "Beverages"
-        },
-        {
-          "dish_name": "Taylor Fladgate Port",
-          "description": "Aged tawny port wine",
-          "price": 11.00,
-          "category": "Beverages"
-        },
-        {
-          "dish_name": "Blueberry Tea",
-          "description": "Orange pekoe tea with Amaretto and Grand Marnier",
-          "price": 12.00,
-          "category": "Beverages"
-        },
-        {
-          "dish_name": "Bourbon Hot Toddy",
-          "description": "Hot drink with Jim Beam bourbon, honey, and lemon",
-          "price": 12.00,
+          "description": "Coffee with Kahlua, brandy, and whipped cream. Sweet coffee liqueur with brandy warmth. Rich and indulgent. Dessert-like beverage.",
+          "price": 12,
           "category": "Beverages"
         },
         {
           "dish_name": "Oliver's Salad",
-          "description": "Mixed artisanal greens with toasted almonds, goat cheese, bacon, dried cranberries, and balsamic vinaigrette",
+          "description": "Mixed artisanal greens with toasted almonds, goat cheese, bacon, dried cranberries, and balsamic vinaigrette. Fresh and crunchy with sweet-savory balance. Tangy goat cheese with sweet cranberries. Satisfying salad.",
           "price": "14 (Small) / 18 (Large)",
           "category": "Salad and Soup"
         },
         {
           "dish_name": "Seafood Chowder",
-          "description": "Creamy chowder with ice shrimp, local cod, mussels, and dill",
-          "price": 16.00,
-          "category": "Salad and Soup"
-        },
-        {
-          "dish_name": "Seasonal Soup",
-          "description": "Chef's selection of soup changing daily",
-          "price": 11.00,
+          "description": "Creamy chowder with ice shrimp, local cod, mussels, and dill. Rich and hearty with tender seafood. Savory and comforting. Fresh ocean flavors.",
+          "price": 16,
           "category": "Salad and Soup"
         },
         {
           "dish_name": "Lemon Pepper Calamari",
-          "description": "Crispy calamari with lemon pepper seasoning and buttermilk ranch sauce",
-          "price": 18.00,
+          "description": "Crispy calamari with lemon pepper seasoning and buttermilk ranch sauce. Crunchy fried squid with zesty lemon. Savory with tangy ranch. Light and crispy.",
+          "price": 18,
           "category": "Starters and Sharing"
         },
         {
           "dish_name": "Almond Baked Goat Cheese",
-          "description": "Almond crusted goat cheese with flamed tomato salsa, balsamic reduction, and pesto",
-          "price": 18.00,
+          "description": "Almond crusted goat cheese with flamed tomato salsa, balsamic reduction, and pesto. Warm, creamy cheese with crunchy almond coating. Savory with sweet-tangy balance. Elegant appetizer.",
+          "price": 18,
           "category": "Starters and Sharing"
         },
         {
           "dish_name": "Crispy Cod Tongues",
-          "description": "Pan-fried cod tongues with scrunchions and house-made tartar sauce",
-          "price": 19.00,
+          "description": "Pan-fried cod tongues with scrunchions and house-made tartar sauce. Crispy, tender local delicacy with crunchy pork bits. Savory and rich. Newfoundland specialty.",
+          "price": 19,
           "category": "Starters and Sharing"
         },
         {
           "dish_name": "Newfoundland Cod",
-          "description": "Potato and sour cream crusted cod pan seared with frites and vegetables",
-          "price": 36.00,
+          "description": "Potato and sour cream crusted cod pan seared with frites and vegetables. Flaky cod with crispy potato crust. Savory and mild. Comforting seafood dish.",
+          "price": 36,
           "category": "Dinner"
         },
         {
           "dish_name": "Seafood Platter",
-          "description": "Pan-seared local cod with mussels, shrimp, scallops, frites, and vegetables",
-          "price": 44.00,
+          "description": "Pan-seared local cod with mussels, shrimp, scallops, frites, and vegetables. Variety of fresh seafood with crispy fries. Savory and oceanic. Generous and satisfying.",
+          "price": 44,
           "category": "Dinner"
         },
         {
           "dish_name": "Halibut Piccata",
-          "description": "Halibut with lemon-caper butter, garlic, and Parmesan risotto",
-          "price": 42.00,
+          "description": "Halibut with lemon-caper butter, garlic, and Parmesan risotto. Flaky white fish in tangy lemon sauce. Savory with creamy risotto. Bright and rich.",
+          "price": 42,
           "category": "Dinner"
         },
         {
           "dish_name": "Jambalaya Fettuccine",
-          "description": "Pasta with sausage, shrimp, mussels in creamy Cajun marinara",
-          "price": 38.00,
+          "description": "Pasta with sausage, shrimp, mussels in creamy Cajun marinara. Spicy Cajun flavors with seafood and sausage. Rich and bold with heat. Fusion comfort food.",
+          "price": 38,
           "category": "Dinner"
         },
         {
           "dish_name": "Balsamic Chicken Fettuccine",
-          "description": "Pasta with mushrooms, chicken, bacon in balsamic cream sauce",
-          "price": 34.00,
-          "category": "Dinner"
-        },
-        {
-          "dish_name": "Striploin Steak",
-          "description": "10oz hand-cut striploin with red wine demi-glace, potatoes, and vegetables",
-          "price": null,
+          "description": "Pasta with mushrooms, chicken, bacon in balsamic cream sauce. Savory chicken with tangy-sweet balsamic. Rich and creamy. Satisfying pasta dish.",
+          "price": 34,
           "category": "Dinner"
         },
         {
           "dish_name": "Creamy Italian Sausage Penne",
-          "description": "Penne pasta with sausage, broccolini, white beans in creamy garlic sauce",
-          "price": 34.00,
+          "description": "Penne pasta with sausage, broccolini, white beans in creamy garlic sauce. Rich, garlicky pasta with savory sausage. Hearty and comforting. Italian-inspired.",
+          "price": 34,
           "category": "Dinner"
         },
         {
           "dish_name": "Goat Cheese Benedict",
-          "description": "Poached eggs with tomato salsa, goat cheese, and hollandaise on English muffins",
-          "price": 21.00,
+          "description": "Poached eggs with tomato salsa, goat cheese, and hollandaise on English muffins. Creamy eggs with tangy goat cheese. Rich hollandaise with fresh salsa. Elevated brunch classic.",
+          "price": 21,
           "category": "Lunch and Brunch"
         },
         {
           "dish_name": "Oliver's Breakfast",
-          "description": "Two eggs any style with toast, hash browns, fruit, and bacon",
-          "price": 18.00,
+          "description": "Two eggs any style with toast, hash browns, fruit, and bacon. Classic hearty breakfast with crispy bacon. Savory and satisfying. Traditional morning meal.",
+          "price": 18,
           "category": "Lunch and Brunch"
         },
         {
           "dish_name": "Breakfast Skillet",
-          "description": "Egg scramble with onions, peppers, choice of meat, cheese, and hash browns",
-          "price": 20.00,
+          "description": "Egg scramble with onions, peppers, choice of meat, cheese, and hash browns. Hearty scrambled eggs with savory toppings. Rich and filling. Customizable breakfast.",
+          "price": 20,
           "category": "Lunch and Brunch"
         },
         {
           "dish_name": "Penne Carbonara",
-          "description": "Classic carbonara with bacon, egg, and Parmesan",
-          "price": 19.00,
+          "description": "Classic carbonara with bacon, egg, and Parmesan. Creamy, rich pasta with crispy bacon. Savory and indulgent. Italian comfort food.",
+          "price": 19,
           "category": "Lunch and Brunch"
         },
         {
           "dish_name": "Creole Chicken Sandwich",
-          "description": "Cajun chicken with chipotle mayo, cheddar, bacon on potato bun",
-          "price": 22.00,
+          "description": "Cajun chicken with chipotle mayo, cheddar, bacon on potato bun. Spicy chicken with smoky chipotle. Savory with heat. Bold and flavorful sandwich.",
+          "price": 22,
           "category": "Lunch and Brunch"
         },
         {
           "dish_name": "Steak Sandwich",
-          "description": "Shaved steak with caramelized onions, provolone, and balsamic mayo",
-          "price": 22.00,
+          "description": "Shaved steak with caramelized onions, provolone, and balsamic mayo. Tender beef with sweet onions. Savory and rich. Hearty sandwich.",
+          "price": 22,
           "category": "Lunch and Brunch"
         },
         {
           "dish_name": "Pan Fried Cod",
-          "description": "Local cod pan-fried with scrunchions",
-          "price": 24.00,
+          "description": "Local cod pan-fried with scrunchions. Crispy cod with crunchy pork bits. Savory and traditional. Newfoundland classic.",
+          "price": 24,
           "category": "Lunch and Brunch"
         },
         {
           "dish_name": "Italian Sausage Sandwich",
-          "description": "Sausage with roasted peppers, onions, provolone, and marinara",
-          "price": 19.00,
+          "description": "Sausage with roasted peppers, onions, provolone, and marinara. Savory sausage with sweet peppers. Rich and hearty. Italian-style sub.",
+          "price": 19,
           "category": "Lunch and Brunch"
+        },
+        {
+          "dish_name": "Butter Chicken",
+          "description": "Creamy butter chicken served with rice and naan. Rich, mildly spiced tomato-cream sauce. Savory and slightly sweet. Comforting Indian classic.",
+          "price": 26,
+          "category": "Mains"
+        },
+        {
+          "dish_name": "Sweet Bourbon Chicken",
+          "description": "Sweet bourbon glazed chicken with veggies. Sticky-sweet glaze with bourbon warmth. Savory chicken with caramelized coating. Bold and flavorful.",
+          "price": 28,
+          "category": "Mains"
+        },
+        {
+          "dish_name": "Duck Sandwich",
+          "description": "Duck sandwich with seasonal toppings. Rich, savory duck meat. Slightly gamey with crispy skin. Gourmet sandwich option.",
+          "price": 20,
+          "category": "Sandwiches"
+        }
+      ]
+    },
+    {
+      "restaurant": "Portage",
+      "currency": "CAD",
+      "menu": [
+        {
+          "dish_name": "Smoked Olives",
+          "description": "Smoked marinated olives. Briny olives with deep smoky flavor. Savory and complex with earthy notes. Perfect for snacking.",
+          "price": 14,
+          "category": "Snacks & Small Plates"
+        },
+        {
+          "dish_name": "Napa",
+          "description": "Napa cabbage salad. Crisp, refreshing cabbage with light dressing. Savory and slightly sweet. Crunchy and fresh.",
+          "price": 14,
+          "category": "Snacks & Small Plates"
+        },
+        {
+          "dish_name": "Beets",
+          "description": "Roasted beets with garnish. Earthy, sweet roasted beets. Savory with natural sweetness. Tender and flavorful.",
+          "price": 14,
+          "category": "Snacks & Small Plates"
+        },
+        {
+          "dish_name": "Radicchio",
+          "description": "Radicchio salad with vinaigrette. Bitter, crisp radicchio with tangy dressing. Savory and refreshing. Bold, peppery flavor.",
+          "price": 14,
+          "category": "Snacks & Small Plates"
+        },
+        {
+          "dish_name": "Banh Mi Salad",
+          "description": "Banh mi inspired salad with pickled veg. Tangy pickled vegetables with fresh herbs. Savory, sweet, and sour flavors. Bright and zesty.",
+          "price": 14,
+          "category": "Snacks & Small Plates"
+        },
+        {
+          "dish_name": "Focaccia",
+          "description": "House focaccia bread. Soft, pillowy bread with olive oil and herbs. Savory with rosemary notes. Warm and comforting.",
+          "price": 10,
+          "category": "Snacks & Small Plates"
+        },
+        {
+          "dish_name": "Broccoli",
+          "description": "Roasted broccoli with seasoning. Charred, crispy broccoli with savory seasonings. Slightly bitter with nutty, caramelized flavor.",
+          "price": 10,
+          "category": "Vegetable"
+        },
+        {
+          "dish_name": "Burger Carpaccio",
+          "description": "Beef carpaccio styled burger. Thinly sliced raw beef with burger-inspired toppings. Savory, rich, and tender. Unique presentation.",
+          "price": 16,
+          "category": "Snacks & Small Plates"
+        },
+        {
+          "dish_name": "Oysters",
+          "description": "Fresh oysters on the half shell. Briny, fresh oysters with clean ocean flavor. Savory and delicate. Smooth, silky texture.",
+          "price": 16,
+          "category": "Seafood"
+        },
+        {
+          "dish_name": "Scallop Toast",
+          "description": "Toast topped with seared scallops. Sweet, buttery scallops on crispy toast. Savory and luxurious. Tender and rich.",
+          "price": 18,
+          "category": "Seafood"
+        },
+        {
+          "dish_name": "Cured Char",
+          "description": "Cured char with accompaniments. Silky, delicate cured fish with bright flavors. Savory with citrus notes. Fresh and elegant.",
+          "price": 18,
+          "category": "Seafood"
+        },
+        {
+          "dish_name": "Mussels (Portage)",
+          "description": "Portage style mussels. Tender mussels in aromatic broth. Savory with wine and garlic. Fresh and flavorful.",
+          "price": 20,
+          "category": "Seafood"
+        },
+        {
+          "dish_name": "Celeriac",
+          "description": "Celeriac preparation as side. Earthy root vegetable with mild celery flavor. Savory and creamy when cooked. Unique and delicious.",
+          "price": 10,
+          "category": "Vegetable"
+        },
+        {
+          "dish_name": "Bok Choy",
+          "description": "Sautéed bok choy. Tender greens with crisp stems. Savory with garlic and ginger notes. Light and fresh.",
+          "price": 10,
+          "category": "Vegetable"
+        },
+        {
+          "dish_name": "Rutabaga",
+          "description": "Rutabaga seasonal dish. Sweet, earthy root vegetable. Savory with natural sweetness. Tender and comforting.",
+          "price": 10,
+          "category": "Vegetable"
+        },
+        {
+          "dish_name": "Squash",
+          "description": "Roasted squash. Sweet, caramelized squash with nutty flavor. Savory and naturally sweet. Tender and satisfying.",
+          "price": 10,
+          "category": "Vegetable"
+        },
+        {
+          "dish_name": "Leek Gratin",
+          "description": "Creamy leek gratin. Tender leeks in rich, cheesy sauce. Savory and indulgent. Smooth and comforting.",
+          "price": 12,
+          "category": "Vegetable"
+        },
+        {
+          "dish_name": "Pork Dumplings",
+          "description": "Pork dumplings with dipping sauce. Juicy pork filling in tender wrapper. Savory with ginger and garlic. Rich and satisfying.",
+          "price": 16,
+          "category": "Proteins"
+        },
+        {
+          "dish_name": "Guinea Fowl",
+          "description": "Guinea fowl preparation. Gamey, flavorful bird similar to chicken but richer. Savory and tender. Unique poultry option.",
+          "price": 30,
+          "category": "Proteins"
+        },
+        {
+          "dish_name": "Pork Schnitzel",
+          "description": "Pork schnitzel with sides. Crispy breaded pork cutlet. Savory and crunchy with tender meat. Classic comfort food.",
+          "price": 26,
+          "category": "Proteins"
+        },
+        {
+          "dish_name": "Ribeye",
+          "description": "Ribeye steak with accompaniments. Marbled, juicy steak with rich beefy flavor. Savory and tender. Premium cut with buttery texture.",
+          "price": 36,
+          "category": "Proteins"
+        },
+        {
+          "dish_name": "Bake-apple Dessert",
+          "description": "Seasonal bake-apple dessert. Sweet, tart Newfoundland cloudberries. Unique fruity flavor with honey notes. Local delicacy.",
+          "price": 12,
+          "category": "Dessert"
+        }
+      ]
+    },
+    {
+      "restaurant": "St. John's Fish Exchange Kitchen & Wet Bar",
+      "currency": "CAD",
+      "menu": [
+        {
+          "dish_name": "Manchego Cheese",
+          "description": "Seared manchego served on ciabatta with fig jam and arugula. Savory and nutty cheese balanced with sweet fig jam and peppery arugula. Rich and indulgent appetizer.",
+          "price": 16,
+          "category": "Starters & Small Plates"
+        },
+        {
+          "dish_name": "Crab Cakes",
+          "description": "Housemade crab cakes with spicy remoulade and corn relish. Crispy exterior with tender, sweet crab meat inside. Spicy kick from remoulade, balanced with sweet corn. Savory seafood flavor.",
+          "price": 18,
+          "category": "Starters & Small Plates"
+        },
+        {
+          "dish_name": "SJFX Chowder",
+          "description": "Classic New England-style chowder with local seafood. Creamy, rich, and savory with tender chunks of fresh fish. Comforting and hearty with mild, buttery flavor.",
+          "price": 14,
+          "category": "Soups & Greens"
+        },
+        {
+          "dish_name": "Lobster Bisque",
+          "description": "Creamy lobster bisque finished with sherry. Rich, velvety, and luxurious with sweet lobster flavor. Savory with a hint of sherry warmth. Smooth and indulgent.",
+          "price": 14,
+          "category": "Soups & Greens"
+        },
+        {
+          "dish_name": "Veggie Tacos",
+          "description": "Seasonal vegetable tacos. Fresh, crisp vegetables with savory seasonings. Light and healthy with bright, garden-fresh flavors. Mildly spiced.",
+          "price": 18,
+          "category": "Tacos"
+        },
+        {
+          "dish_name": "Crispy Shrimp Tacos",
+          "description": "Crispy shrimp with slaw and spicy mayo. Crunchy fried shrimp with creamy, spicy sauce. Sweet shrimp flavor with tangy slaw and heat from mayo. Savory and satisfying.",
+          "price": 18,
+          "category": "Tacos"
+        },
+        {
+          "dish_name": "Tuna Tacos",
+          "description": "Seared tuna tacos with Asian slaw. Fresh, meaty tuna with tangy, crunchy slaw. Savory with umami notes and slight sweetness. Light and refreshing.",
+          "price": 18,
+          "category": "Tacos"
+        },
+        {
+          "dish_name": "Golden Fried Cod Tacos",
+          "description": "Crispy fried cod tacos with tartar and slaw. Crunchy beer-battered cod with creamy tartar sauce. Savory, mild fish flavor with tangy accompaniments. Comfort food.",
+          "price": 18,
+          "category": "Tacos"
+        },
+        {
+          "dish_name": "Spicy Chicken Tacos",
+          "description": "Spicy chicken tacos with pickled onions. Bold, spicy chicken with tangy pickled onions. Heat-forward with savory chicken and acidic crunch. Flavorful and zesty.",
+          "price": 18,
+          "category": "Tacos"
+        },
+        {
+          "dish_name": "BBQ Back Ribs (half)",
+          "description": "Slow-cooked BBQ back ribs (half rack). Tender, fall-off-the-bone ribs with sweet and tangy BBQ sauce. Smoky, savory, with caramelized edges. Rich and satisfying.",
+          "price": 28,
+          "category": "Mains"
+        },
+        {
+          "dish_name": "BBQ Back Ribs (full)",
+          "description": "Slow-cooked BBQ back ribs (full rack). Tender, fall-off-the-bone ribs with sweet and tangy BBQ sauce. Smoky, savory, with caramelized edges. Rich and satisfying.",
+          "price": 42,
+          "category": "Mains"
+        },
+        {
+          "dish_name": "Lobster Mac & Cheese",
+          "description": "Rich macaroni and cheese loaded with lobster. Creamy, indulgent cheese sauce with sweet, tender lobster chunks. Savory and luxurious comfort food. Rich and decadent.",
+          "price": 32,
+          "category": "Mains"
+        },
+        {
+          "dish_name": "Lobster & Shrimp Pappardelle",
+          "description": "Pappardelle tossed with lobster and shrimp in a creamy sauce. Rich, velvety pasta with sweet seafood. Savory and luxurious with garlic notes. Indulgent and satisfying.",
+          "price": 34,
+          "category": "Mains"
+        },
+        {
+          "dish_name": "Chicken Pesto Pasta",
+          "description": "Pasta with grilled chicken and basil pesto. Fresh, herbaceous pesto with savory grilled chicken. Bright basil flavor with garlic and parmesan. Light yet satisfying.",
+          "price": 26,
+          "category": "Mains"
+        },
+        {
+          "dish_name": "Blackened Salmon Bowl",
+          "description": "Blackened salmon served on grain bowl with vegetables. Spicy Cajun-crusted salmon with nutty grains and fresh vegetables. Savory with a spicy kick. Healthy and flavorful.",
+          "price": 28,
+          "category": "Mains"
+        },
+        {
+          "dish_name": "Cauliflower Bowl",
+          "description": "Roasted cauliflower with grains and seasonal veggies. Nutty roasted cauliflower with earthy grains. Savory and wholesome with mild, sweet vegetable flavors. Light and nutritious.",
+          "price": 22,
+          "category": "Mains"
+        },
+        {
+          "dish_name": "Fish & Chips (one)",
+          "description": "One piece beer-battered cod with chips, tartar sauce. Crispy, golden battered fish with fluffy interior. Savory and mild with creamy tartar. Classic comfort food.",
+          "price": 18,
+          "category": "Mains"
+        },
+        {
+          "dish_name": "Fish & Chips (two)",
+          "description": "Two pieces beer-battered cod with chips, tartar sauce. Crispy, golden battered fish with fluffy interior. Savory and mild with creamy tartar. Classic comfort food.",
+          "price": 26,
+          "category": "Mains"
+        },
+        {
+          "dish_name": "Fish & Chips (three)",
+          "description": "Three pieces beer-battered cod with chips, tartar sauce. Crispy, golden battered fish with fluffy interior. Savory and mild with creamy tartar. Classic comfort food.",
+          "price": 34,
+          "category": "Mains"
+        },
+        {
+          "dish_name": "Lobster Roll",
+          "description": "Classic lobster roll. Sweet, tender lobster meat in a buttery toasted bun. Light mayo dressing. Fresh, savory, and indulgent. Maritime classic.",
+          "price": 34,
+          "category": "Mains"
         }
       ]
     },
@@ -324,267 +558,441 @@
       "menu": [
         {
           "dish_name": "Beef Striploin",
-          "description": "Grilled strip loin with sea salt, cracked peppercorns, and bordelaise sauce. Add-ons: Sautéed onions ($4), pan-seared scallops ($11), harissa shrimp ($9), peppercorn sauce ($6).",
+          "description": "Grilled strip loin with sea salt, cracked peppercorns, and bordelaise sauce. Juicy, tender steak with peppery crust. Savory and rich with wine sauce. Premium beef cut.",
           "price": 38.99,
           "category": "Off The Grill"
         },
         {
           "dish_name": "Beef Brisket Poutine",
-          "description": "Braised beef brisket over fries with cheese curds and Murphy Stout gravy.",
+          "description": "Braised beef brisket over fries with cheese curds and Murphy Stout gravy. Rich, tender beef with squeaky cheese curds. Savory and indulgent. Canadian comfort food.",
           "price": 22.99,
           "category": "Off The Grill"
         },
         {
           "dish_name": "Cranberry and Feta Crusted Chicken",
-          "description": "Roasted chicken breast with cranberry-spinach cream cheese crust.",
+          "description": "Roasted chicken breast with cranberry-spinach cream cheese crust. Juicy chicken with sweet-tangy cranberry. Savory with creamy feta. Unique flavor combination.",
           "price": 32.99,
           "category": "Off The Grill"
         },
         {
           "dish_name": "Surf and Turf",
-          "description": "Grilled strip loin with Cajun cream sauce, shrimp, scallops, and roasted pepper cream sauce.",
+          "description": "Grilled strip loin with Cajun cream sauce, shrimp, scallops, and roasted pepper cream sauce. Tender steak with sweet seafood. Spicy Cajun flavors. Luxurious combination.",
           "price": 45.99,
           "category": "Off The Grill"
         },
         {
           "dish_name": "Cod Au Gratin",
-          "description": "Baked cod in creamy cheddar cheese sauce with scrunchions.",
+          "description": "Baked cod in creamy cheddar cheese sauce with scrunchions. Flaky fish in rich cheese sauce. Savory and comforting with crispy pork bits. Newfoundland classic.",
           "price": 23.99,
           "category": "Seafood"
         },
         {
           "dish_name": "Cod Tongue Dinner",
-          "description": "Pan-fried cod tongues with scrunchions and tartar sauce.",
+          "description": "Pan-fried cod tongues with scrunchions and tartar sauce. Tender, delicate cod tongues with crunchy texture. Savory local delicacy. Traditional Newfoundland dish.",
           "price": 33.99,
           "category": "Seafood"
         },
         {
           "dish_name": "Prosciutto and Maple Scallops",
-          "description": "Pan-roasted scallops with prosciutto and maple Cajun sauce.",
+          "description": "Pan-roasted scallops with prosciutto and maple Cajun sauce. Sweet scallops with salty prosciutto. Savory with sweet maple and spicy Cajun. Elegant seafood.",
           "price": 38.99,
           "category": "Seafood"
         },
         {
           "dish_name": "Fish and Chips Supreme",
-          "description": "Two pieces of beer-battered cod with chips, coleslaw, peas, carrots, and tartar sauce. Add extra cod (+$14.99 for 2 pieces).",
+          "description": "Two pieces of beer-battered cod with chips, coleslaw, peas, carrots, and tartar sauce. Crispy golden fish with fluffy interior. Savory and classic. Generous portions.",
           "price": 28.99,
           "category": "Seafood"
         },
         {
           "dish_name": "Cajun Salmon",
-          "description": "8oz salmon with Cajun crust and classic shrimp tacos.",
+          "description": "8oz salmon with Cajun crust and classic shrimp tacos. Spicy blackened salmon with bold seasonings. Savory with heat. Flavorful and satisfying.",
           "price": 25.99,
           "category": "Seafood"
         },
         {
           "dish_name": "Fish Tacos",
-          "description": "Beer-battered cod with spicy coleslaw, sweet chili mayo, and grilled pineapple.",
+          "description": "Beer-battered cod with spicy coleslaw, sweet chili mayo, and grilled pineapple. Crispy fish with spicy-sweet toppings. Tangy slaw with heat. Tropical fusion flavors.",
           "price": 26.99,
           "category": "Seafood"
         },
         {
           "dish_name": "Pan Fried Cod",
-          "description": "Pan-seared cod with scrunchions and mustard pickle batter sauce.",
+          "description": "Pan-seared cod with scrunchions and mustard pickle batter sauce. Crispy cod with tangy mustard sauce. Savory with crunchy pork bits. Traditional preparation.",
           "price": 33.99,
           "category": "Seafood"
         },
         {
           "dish_name": "Celtic Burger",
-          "description": "Beef burger with bacon, cheddar, paniko onion rings, lettuce, red onion, pickles, and house sauce. Served with choice of fries, roasted/mashed potatoes, or salad. Substitute sweet potato fries/onion rings (+$5.95).",
+          "description": "Beef burger with bacon, cheddar, paniko onion rings, lettuce, red onion, pickles, and house sauce. Loaded burger with crispy onion rings. Savory and indulgent. Signature burger.",
           "price": 26.99,
           "category": "Burgers"
         },
         {
           "dish_name": "Traditional Burger",
-          "description": "Classic beef burger with tomato, lettuce, red onion, pickle, and house sauce. Substitutions available (+$5.95).",
+          "description": "Classic beef burger with tomato, lettuce, red onion, pickle, and house sauce. Simple, juicy burger with fresh toppings. Savory and satisfying. Timeless classic.",
           "price": 24.99,
           "category": "Burgers"
         },
         {
           "dish_name": "Moose and Jam Burger",
-          "description": "Newfoundland moose patty with brie, bacon, rhubarb pickles, and crispy onions.",
+          "description": "Newfoundland moose patty with brie, bacon, rhubarb pickles, and crispy onions. Lean, gamey moose with creamy brie. Sweet-tart pickles. Unique local specialty.",
           "price": 28.99,
           "category": "Burgers"
         },
         {
           "dish_name": "Guinness Burger",
-          "description": "Beef patty with Guinness BBQ sauce, Dublin old cheddar, bacon, crispy onions, lettuce, and tomato.",
+          "description": "Beef patty with Guinness BBQ sauce, Dublin old cheddar, bacon, crispy onions, lettuce, and tomato. Rich burger with sweet-tangy BBQ. Savory with Irish flair. Bold flavors.",
           "price": 27.99,
           "category": "Burgers"
         },
         {
           "dish_name": "Chicken Burger",
-          "description": "Pan-seared chicken breast with sweet cranberry mayo, lettuce, and tomato.",
+          "description": "Pan-seared chicken breast with sweet cranberry mayo, lettuce, and tomato. Juicy chicken with sweet-tangy sauce. Savory and lighter option. Fresh and flavorful.",
           "price": 23.99,
           "category": "Burgers"
         },
         {
           "dish_name": "Falafel Burger",
-          "description": "Chickpea patty with tzatziki, feta, garlic, onion, parsley, and cilantro.",
+          "description": "Chickpea patty with tzatziki, feta, garlic, onion, parsley, and cilantro. Crispy falafel with cool tzatziki. Savory and herbaceous. Vegetarian Mediterranean option.",
           "price": 23.99,
           "category": "Burgers"
         },
         {
           "dish_name": "Club House",
-          "description": "Triple-decker sandwich with roasted chicken breast, bacon, lettuce, tomato, black forest ham, cheddar, and mayo. Can be made as a wrap.",
+          "description": "Triple-decker sandwich with roasted chicken breast, bacon, lettuce, tomato, black forest ham, cheddar, and mayo. Classic layered sandwich with multiple meats. Savory and filling. Traditional favorite.",
           "price": 22.99,
           "category": "Sandwiches"
         },
         {
           "dish_name": "Chopped Steak Flat Bread",
-          "description": "Flatbread with chopped steak, sautéed onions, mushrooms, béchamel, mozzarella, and crispy onions.",
+          "description": "Flatbread with chopped steak, sautéed onions, mushrooms, béchamel, mozzarella, and crispy onions. Savory beef with creamy sauce. Rich and hearty. Pizza-style flatbread.",
           "price": 23.99,
           "category": "Sandwiches"
         },
         {
           "dish_name": "Chicken Prosciutto and Swiss",
-          "description": "Chicken breast with prosciutto, Swiss cheese, pickled onion, basil pesto mayo, lettuce, and tomato. Can be made as a wrap.",
+          "description": "Chicken breast with prosciutto, Swiss cheese, pickled onion, basil pesto mayo, lettuce, and tomato. Savory chicken with salty prosciutto. Fresh pesto flavor. Gourmet sandwich.",
           "price": 21.99,
           "category": "Sandwiches"
         },
         {
           "dish_name": "Beef Dip",
-          "description": "Murphy's and molasses braised beef brisket with Swiss cheese and au jus. Can be made as a wrap.",
+          "description": "Murphy's and molasses braised beef brisket with Swiss cheese and au jus. Tender, slow-cooked beef with melted cheese. Savory with sweet molasses notes. Dippable sandwich.",
           "price": 23.99,
           "category": "Sandwiches"
         },
         {
           "dish_name": "Steak and Cheese",
-          "description": "Sautéed steak with mushrooms, onions, mozzarella, and au jus dip. Can be made as a wrap.",
+          "description": "Sautéed steak with mushrooms, onions, mozzarella, and au jus dip. Tender beef with melted cheese. Savory and rich. Philly-style sandwich.",
           "price": 23.99,
           "category": "Sandwiches"
         },
         {
           "dish_name": "Hot Turkey",
-          "description": "Roasted turkey with savoury dressing and gravy on fresh bread. Can be made as a wrap.",
+          "description": "Roasted turkey with savoury dressing and gravy on fresh bread. Warm, comforting turkey with rich gravy. Savory and homestyle. Traditional comfort food.",
           "price": 21.99,
           "category": "Sandwiches"
         },
         {
           "dish_name": "Crab and Cod Cakes",
-          "description": "Award-winning cakes with cod, crab, potatoes, onions, pickles, and tartar sauce.",
+          "description": "Award-winning cakes with cod, crab, potatoes, onions, pickles, and tartar sauce. Crispy seafood cakes with sweet crab. Savory and tender. Local specialty.",
           "price": 16.99,
           "category": "Appetizers"
         },
         {
           "dish_name": "Crab Shrimp and Artichoke Dip",
-          "description": "Creamy dip with crab meat, ice shrimp, chopped artichokes, and crispy pita chips.",
+          "description": "Creamy dip with crab meat, ice shrimp, chopped artichokes, and crispy pita chips. Rich, cheesy seafood dip. Savory and indulgent. Perfect for sharing.",
           "price": 18.99,
           "category": "Appetizers"
         },
         {
           "dish_name": "Cod Tongues",
-          "description": "Pan-fried with scrunchions, rhubarb pickles, and mustard pickle tartar sauce.",
+          "description": "Pan-fried with scrunchions, rhubarb pickles, and mustard pickle tartar sauce. Tender cod tongues with tangy pickles. Savory with unique texture. Newfoundland delicacy.",
           "price": 17.99,
           "category": "Appetizers"
         },
         {
           "dish_name": "Bacon and Maple Scallops",
-          "description": "Seared scallops with crispy bacon and maple Cajun sauce, served with peppers.",
+          "description": "Seared scallops with crispy bacon and maple Cajun sauce, served with peppers. Sweet scallops with salty bacon. Spicy-sweet maple sauce. Elegant appetizer.",
           "price": 18.99,
           "category": "Appetizers"
         },
         {
           "dish_name": "Nachos",
-          "description": "Classic nachos with layered tortilla chips, jalapeño, black beans, olives, and cheddar-monterey jack-mozzarella blend. Add-ons: Chicken (+$5), extra cheese (+$4).",
+          "description": "Classic nachos with layered tortilla chips, jalapeño, black beans, olives, and cheddar-monterey jack-mozzarella blend. Crispy chips with melted cheese. Savory with spicy jalapeños. Shareable appetizer.",
           "price": 25.99,
           "category": "Appetizers"
         },
         {
           "dish_name": "Sexy Nachos",
-          "description": "Loaded nachos with roasted tomato, jalapeño, black beans, red onion, ½ lb cheese blend, and BBQ sauce. Add-ons: Guacamole (+$4), salsa/sour cream (+$2).",
+          "description": "Loaded nachos with roasted tomato, jalapeño, black beans, red onion, ½ lb cheese blend, and BBQ sauce. Heavily loaded with toppings. Spicy, sweet, and savory. Indulgent nachos.",
           "price": 27.99,
           "category": "Appetizers"
         },
         {
           "dish_name": "Beef Brisket Nachos",
-          "description": "Nachos topped with Murphy's and molasses braised beef brisket, jalapeño, black beans, olives, and cheese blend.",
+          "description": "Nachos topped with Murphy's and molasses braised beef brisket, jalapeño, black beans, olives, and cheese blend. Tender beef with spicy toppings. Rich and hearty. Premium nachos.",
           "price": 28.99,
           "category": "Appetizers"
         },
         {
           "dish_name": "Caesar Salad",
-          "description": "Crisp romaine with house-made Caesar dressing, bacon, parmesan, and croutons. Add-ons: Oven-roasted chicken (+$5), scallops (+$11), shrimp (+$9), striploin (+$19).",
+          "description": "Crisp romaine with house-made Caesar dressing, bacon, parmesan, and croutons. Creamy, garlicky dressing with crunchy romaine. Savory with salty bacon. Classic salad.",
           "price": 15.99,
           "category": "Starters"
         },
         {
           "dish_name": "Roasted Beet Salad",
-          "description": "Mixed greens with cherry tomatoes, carrot, sweet/spicy pecans, goat cheese, and herb yogurt dressing.",
+          "description": "Mixed greens with cherry tomatoes, carrot, sweet/spicy pecans, goat cheese, and herb yogurt dressing. Earthy beets with tangy goat cheese. Sweet and savory. Fresh and colorful.",
           "price": 15.99,
           "category": "Starters"
         },
         {
           "dish_name": "Lamb Pappardelle",
-          "description": "Slow-braised lamb in red wine and lamb sauce with cream, parmesan, roasted mushrooms, broccoli, and peppers.",
+          "description": "Slow-braised lamb in red wine and lamb sauce with cream, parmesan, roasted mushrooms, broccoli, and peppers. Rich, tender lamb with earthy mushrooms. Savory and luxurious. Hearty pasta.",
           "price": 34.99,
           "category": "Pasta"
         },
         {
           "dish_name": "Creamy Alfredo",
-          "description": "Fettuccine with garlic Alfredo sauce and parmesan. Add roasted chicken or grilled shrimp (+$9).",
+          "description": "Fettuccine with garlic Alfredo sauce and parmesan. Rich, creamy sauce with garlic notes. Savory and indulgent. Classic Italian comfort.",
           "price": 22.99,
           "category": "Pasta"
         },
         {
           "dish_name": "Steamed Mussels",
-          "description": "Newfoundland mussels steamed in white wine garlic cream.",
+          "description": "Newfoundland mussels steamed in white wine garlic cream. Tender mussels in aromatic broth. Savory with wine and garlic. Fresh seafood.",
           "price": 17.99,
           "category": "Dinner"
         },
         {
           "dish_name": "Crispy Fried Chicken Wings",
-          "description": "Lightly coated in seasoned flour, fried, and tossed in Cajun seasoning.",
+          "description": "Lightly coated in seasoned flour, fried, and tossed in Cajun seasoning. Crispy wings with spicy Cajun kick. Savory and bold. Perfect appetizer or main.",
           "price": 17.99,
           "category": "Dinner"
         },
         {
           "dish_name": "Spinach Dip",
-          "description": "Spinach and cream cheese with crispy bacon, 3-cheese blend, served with tortilla chips and baguette.",
+          "description": "Spinach and cream cheese with crispy bacon, 3-cheese blend, served with tortilla chips and baguette. Creamy, cheesy dip with smoky bacon. Savory and rich. Shareable starter.",
           "price": 17.99,
           "category": "Dinner"
         },
         {
           "dish_name": "Onion Rings",
-          "description": "Thick-cut Spanish onions with parmesan crust and chipotle mayo.",
+          "description": "Thick-cut Spanish onions with parmesan crust and chipotle mayo. Crispy, crunchy rings with cheesy coating. Savory with spicy mayo. Classic side.",
           "price": 16.99,
           "category": "Dinner"
         },
         {
           "dish_name": "Seafood Chowder",
-          "description": "Creamy chowder with shrimp, scallops, mussels, salmon, and cod.",
+          "description": "Creamy chowder with shrimp, scallops, mussels, salmon, and cod. Rich, hearty soup with variety of seafood. Savory and comforting. Ocean flavors.",
           "price": 17.99,
           "category": "Dinner"
         },
         {
           "dish_name": "French Onion Soup",
-          "description": "Caramelized onions in red wine and beef broth, topped with croutons, Swiss, mozzarella, and parmesan.",
+          "description": "Caramelized onions in red wine and beef broth, topped with croutons, Swiss, mozzarella, and parmesan. Sweet caramelized onions with savory broth. Rich and cheesy. Classic French soup.",
           "price": 14.99,
           "category": "Dinner"
         },
         {
           "dish_name": "Turkey Noodle Soup",
-          "description": "Roasted turkey with salt beef, root vegetables, and noodles.",
+          "description": "Roasted turkey with salt beef, root vegetables, and noodles. Hearty, comforting soup with tender turkey. Savory and homestyle. Traditional comfort.",
           "price": 12.99,
           "category": "Dinner"
         },
         {
           "dish_name": "Seafood Pappardelle",
-          "description": "Shrimp, scallops, and mussels in garlic pesto cream sauce with parmesan.",
+          "description": "Shrimp, scallops, and mussels in garlic pesto cream sauce with parmesan. Fresh seafood in herbaceous sauce. Savory and rich. Luxurious pasta.",
           "price": 38.99,
           "category": "Dinner"
         },
         {
           "dish_name": "Roasted Tomato and Jalapeño Pasta",
-          "description": "Fettuccine in spicy tomato sauce with cherry tomatoes and bell peppers. Add chicken or shrimp (+$9).",
+          "description": "Fettuccine in spicy tomato sauce with cherry tomatoes and bell peppers. Bright tomato flavor with spicy jalapeño heat. Savory and bold. Vegetarian option with kick.",
           "price": 22.99,
           "category": "Dinner"
         },
         {
           "dish_name": "Lamb Shepherd's Pie",
-          "description": "Traditional braised lamb with root vegetables and mashed potato topping.",
+          "description": "Traditional braised lamb with root vegetables and mashed potato topping. Rich, tender lamb with creamy potato. Savory and comforting. Irish classic.",
           "price": 28.99,
           "category": "Dinner"
+        },
+        {
+          "dish_name": "Touton Sandwich",
+          "description": "Traditional Newfoundland touton sandwich. Fried bread dough with savory fillings. Unique local breakfast item. Soft and doughy.",
+          "price": 14,
+          "category": "Breakfast"
+        },
+        {
+          "dish_name": "Moose Stew",
+          "description": "Hearty moose stew with root vegetables. Rich, gamey meat in savory broth. Tender and warming. Traditional Newfoundland dish.",
+          "price": 26,
+          "category": "Mains"
+        },
+        {
+          "dish_name": "Partridgeberry Pie",
+          "description": "Local partridgeberry pie served seasonally. Tart, sweet berries in flaky crust. Unique Newfoundland flavor. Traditional dessert.",
+          "price": 12,
+          "category": "Desserts"
+        }
+      ]
+    },
+    {
+      "restaurant": "The Merchant Tavern",
+      "currency": "CAD",
+      "menu": [
+        {
+          "dish_name": "Double Smash Burger",
+          "description": "American cheese, lettuce, tomato, pickle, onion, merchant sauce, fries. Juicy double beef patties with melted cheese. Savory and rich with tangy pickles and special sauce. Classic comfort food.",
+          "price": 28,
+          "category": "Entrees"
+        },
+        {
+          "dish_name": "Shrimp Conchiglie",
+          "description": "NL cold water shrimp, basil pistou, parmesan, garlic, shallot. Sweet, tender shrimp in herbaceous basil sauce. Savory with fresh garlic and nutty parmesan. Light and flavorful pasta.",
+          "price": 30,
+          "category": "Entrees"
+        },
+        {
+          "dish_name": "Risotta & Mascarpone Agnolotti",
+          "description": "Arrabbiata, basil, parsley, chive, parmesan. Creamy mascarpone-filled pasta in spicy tomato sauce. Rich and indulgent with a spicy kick. Fresh herbs add brightness.",
+          "price": 30,
+          "category": "Entrees"
+        },
+        {
+          "dish_name": "Beef Ragu Rigatoni",
+          "description": "PEI beef, soffritto, garlic, tomato, fennel, parmesan. Slow-cooked beef in rich tomato sauce. Savory and hearty with aromatic fennel. Comforting Italian classic.",
+          "price": 28,
+          "category": "Entrees"
+        },
+        {
+          "dish_name": "Mushroom Spaghetti",
+          "description": "Leek cream, roasted mushroom, garlic, parmesan. Earthy roasted mushrooms in creamy sauce. Savory and umami-rich with garlic notes. Vegetarian comfort food.",
+          "price": 28,
+          "category": "Entrees"
+        },
+        {
+          "dish_name": "NL Cod",
+          "description": "Soubise, potato, spring greens, crispy onion. Flaky local cod with creamy onion sauce. Mild and savory with crispy texture contrast. Fresh and light.",
+          "price": 38,
+          "category": "Entrees"
+        },
+        {
+          "dish_name": "Half Cornish Hen",
+          "description": "Carrot puree, charred onion, zucchini, persillade sauce. Tender roasted hen with sweet carrot puree. Savory with herbaceous garlic-parsley sauce. Elegant and flavorful.",
+          "price": 38,
+          "category": "Entrees"
+        },
+        {
+          "dish_name": "Québec Duck Breast",
+          "description": "Polenta, mushroom, asparagus, jus. Rich, succulent duck with crispy skin. Savory and slightly gamey with earthy mushrooms. Luxurious and satisfying.",
+          "price": 45,
+          "category": "Entrees"
+        },
+        {
+          "dish_name": "PEI Steak Frites",
+          "description": "8oz butcher cut, salsa verde, red wine jus. Juicy grilled steak with herbaceous green sauce. Savory and rich with bold beef flavor. Classic steakhouse dish.",
+          "price": 55,
+          "category": "Entrees"
+        },
+        {
+          "dish_name": "Bread and butter",
+          "description": "French baguette, daily whipped butter. Warm, crusty bread with creamy butter. Savory and simple. Perfect starter or side.",
+          "price": 9,
+          "category": "Appetizers"
+        },
+        {
+          "dish_name": "NL Oysters",
+          "description": "Mignonette, lemon, jalapeno hot sauce. Fresh, briny oysters with tangy mignonette. Spicy kick from jalapeño sauce. Clean ocean flavor with heat.",
+          "price": 14,
+          "category": "Appetizers"
+        },
+        {
+          "dish_name": "Green Salad",
+          "description": "Champagne vinaigrette, parmesan, crispy shallot. Fresh mixed greens with tangy dressing. Savory with nutty cheese and crunchy shallots. Light and refreshing.",
+          "price": 16,
+          "category": "Appetizers"
+        },
+        {
+          "dish_name": "Beef Tartare",
+          "description": "Shallot, capers, cornichon, parmesan, truffle aioli, gaufrette potato chips. Raw beef with rich truffle mayo. Savory and luxurious with salty capers. Elegant appetizer.",
+          "price": 25,
+          "category": "Appetizers"
+        },
+        {
+          "dish_name": "Scallop Ceviche",
+          "description": "Citrus, jalapeño, cilantro, corn chips. Fresh, tangy scallops with spicy jalapeño. Bright citrus flavor with heat. Light and zesty.",
+          "price": 26,
+          "category": "Appetizers"
+        },
+        {
+          "dish_name": "Tuna Tartare",
+          "description": "Ponzu, green onion, jalapeño, Japanese mayo, wontons. Fresh tuna with tangy ponzu and spicy jalapeño. Savory with umami notes. Creamy and crunchy.",
+          "price": 25,
+          "category": "Appetizers"
+        },
+        {
+          "dish_name": "Mussels",
+          "description": "Neonato, fennel, white wine, cream. Tender mussels in creamy white wine broth. Savory with aromatic fennel. Rich and comforting.",
+          "price": 20,
+          "category": "Appetizers"
+        },
+        {
+          "dish_name": "Cod Fritters",
+          "description": "Romesco sauce, lemon. Crispy fried cod bites with smoky-sweet romesco. Savory with tangy lemon. Crunchy and flavorful.",
+          "price": 18,
+          "category": "Appetizers"
+        },
+        {
+          "dish_name": "Frites",
+          "description": "Cider aioli & calabrian chili aioli. Crispy golden fries with two dipping sauces. Savory with sweet cider aioli and spicy chili aioli. Perfect side.",
+          "price": 11,
+          "category": "Sides"
+        },
+        {
+          "dish_name": "Blueberry Lemon Trifle",
+          "description": "Wild blueberry compote, mascarpone cream, vanilla cake, lemon curd. Sweet and tangy dessert with creamy layers. Fresh blueberry flavor with bright lemon. Light and refreshing.",
+          "price": 12,
+          "category": "Desserts"
+        },
+        {
+          "dish_name": "Crème Brûlée",
+          "description": "Poached rhubarb, vanilla custard, madeleine. Rich, creamy custard with caramelized sugar top. Sweet with tart rhubarb. Smooth and indulgent.",
+          "price": 12,
+          "category": "Desserts"
+        },
+        {
+          "dish_name": "Chocolate Brownie",
+          "description": "Strawberry, vanilla ice cream, candied cacao nibs. Rich, fudgy brownie with sweet strawberries. Decadent chocolate flavor with cold ice cream. Sweet and satisfying.",
+          "price": 14,
+          "category": "Desserts"
+        },
+        {
+          "dish_name": "Roasted Cod Fish",
+          "description": "Roasted cod with mussels, leeks, artichokes and smoked bacon. Flaky cod with smoky bacon and tender vegetables. Savory and rich. Hearty seafood dish.",
+          "price": 32,
+          "category": "Mains"
+        },
+        {
+          "dish_name": "Pork Schnitzel",
+          "description": "Fried pork loin served with potato salad. Crispy breaded pork cutlet with creamy potato salad. Savory and crunchy. Classic comfort food.",
+          "price": 26,
+          "category": "Mains"
+        },
+        {
+          "dish_name": "Steak Frites",
+          "description": "Steak frites as seasonal special. Grilled steak with crispy fries. Savory and juicy with bold beef flavor. Simple and satisfying.",
+          "price": 34,
+          "category": "Mains"
+        },
+        {
+          "dish_name": "Vinegar Pie",
+          "description": "Traditional vinegar pie served with Tetley tea ice cream and berries. Sweet and tangy custard pie with unique tea-flavored ice cream. Newfoundland classic dessert.",
+          "price": 12,
+          "category": "Desserts"
         }
       ]
     }
